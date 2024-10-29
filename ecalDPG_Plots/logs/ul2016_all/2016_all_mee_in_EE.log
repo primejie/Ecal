@@ -1,0 +1,105 @@
+
+Processing plotDataHistsDPG.C("/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/options/ul2016/histDataOptions_mee_in_EE.txt")...
+		Options parsed from file /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/options/ul2016/histDataOptions_mee_in_EE.txt... 
+		writeDir	=	/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/plots/mee/ul2016_all/
+		cmsYear	=	2016
+		histName	=	mee_in_EE
+		histYtitle	=	a.u.
+		fitNsigmaR	=	1.
+		fitNsigmaL	=	0.2
+		np	=	1000.
+		sc	=	10.
+		integralScale	=	1.
+		fitXmin	=	87.
+		fitXmax	=	94.
+		scaleSign	=	1.
+		FFTn	=	50000
+		data0	=	/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/pre2016_all.root
+		data0Legend	=	Initial
+		data0Color	=	#990000
+		data0Marker	=	21
+		data1	=	/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2016_all.root
+		data1Legend	=	Refined
+		data1Color	=	#238b45
+		data1Marker	=	20
+		errorFillStyle	=	3005
+		scale	=	100.
+		legendX1	=	0.11
+		legendX2	=	0.4
+		legendY1	=	0.8
+		legendY2	=	0.97
+		legendNcols	=	1
+		legendTextSize	=	0.04
+		categoryTextSize	=	0.045
+		categoryX	=	0.6
+		categoryY	=	0.95
+		lineWidth	=	2.
+		markerSize	=	2.5
+		statPrecision	=	1
+		xMin	=	78.
+		xMax	=	104.
+		yMin	=	0.0001
+		yMax	=	9.1
+		canvasW	=	1800.
+		canvasH	=	1600.
+		pad2x1	=	0.
+		pad2y1	=	0.
+		pad2x2	=	1.
+		pad2y2	=	0.945
+		pad2axislabelsize	=	0.05
+		pad2axisTitleSize	=	0.06
+		pad2xtitleoffset	=	0.8
+		pad2ytitleoffset	=	0.5
+		pad2yMaxDigits	=	3
+		pad2marginL	=	0.09
+		pad2marginR	=	0.005
+		pad2marginB	=	0.14
+		pad2marginT	=	0.01
+		nDivsPad2X	=	510
+		nDivsPad2Y	=	510
+		titleSize	=	0.05
+		infoYearX	=	0.09
+		infoRunX	=	0.838
+		yearY	=	0.988
+		runY	=	0.992
+	Options parsed!
+[772] Created directory: /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/plots/mee/ul2016_all/
+Plotting mee_in_EE
+		Loading histogram mee_in_EE from file /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/pre2016_all.root
+			Success!
+/////////////////////////////////////////////Floating Z width////////////////////////////////////////////////////////
+/////////////////////////////////////////////Approximated width////////////////////////////////////////////////////////
+fV 7.5
+fG is 6.05573
+fabrice approx : 2.86735 %
+/////////////////////////////////////////////Fixed Z width////////////////////////////////////////////////////////
+ FCN=0.000453778 FROM MINOS     STATUS=PROBLEMS      428 CALLS        1858 TOTAL
+                     EDM=8.19775e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  BW mean      9.02952e+01   1.51823e+00  -2.32775e-03  -9.05998e-05
+   2  Gauss Width   2.67988e+00   1.75361e+00   3.44589e-03  -7.35399e-05
+   3  Integral     4.77876e+01   1.96164e+01   1.96164e+01   7.54990e-05
+                               ERR DEF= 0.5
+Preliminary 2016 mee_in_EE mean is 90.2952
+Preliminary 2016 mee_in_EE sigma60 is 2.67988
+
+		Loading histogram mee_in_EE from file /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2016_all.root
+			Success!
+/////////////////////////////////////////////Floating Z width////////////////////////////////////////////////////////
+/////////////////////////////////////////////Approximated width////////////////////////////////////////////////////////
+fV 7
+fG is 5.54579
+fabrice approx : 2.61898 %
+/////////////////////////////////////////////Fixed Z width////////////////////////////////////////////////////////
+ FCN=0.00055157 FROM MINOS     STATUS=PROBLEMS      414 CALLS        1878 TOTAL
+                     EDM=6.33844e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  BW mean      9.06217e+01   1.35288e+00  -1.51290e-03   1.11731e-04
+   2  Gauss Width   2.32399e+00   1.52526e+00   2.48799e-03  -4.17534e-04
+   3  Integral     4.68346e+01   1.83192e+01   1.83192e+01   4.77759e-05
+                               ERR DEF= 0.5
+Ultra Legacy 2016 mee_in_EE mean is 90.6217
+Ultra Legacy 2016 mee_in_EE sigma60 is 2.32399
+

@@ -1,0 +1,2 @@
+/eos/user/z/zhjie/Plot/quickECALMonitor/jsonFilter/ntuple_2023.root
+/eos/user/z/zhjie/Plot/quickECALMonitor/jsonFilter/ntuple_2022.root

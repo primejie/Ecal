@@ -1,0 +1,3542 @@
+/eos/user/z/zhjie/quickECALMonitor/
+
+Processing ntupleDumper.cxx("/eos/user/z/zhjie/quickECALMonitor/", "2022_scale_v2",1, "inputs/Run3_timebins_all.root","inputs/Run3.dat")...
+chuw/eos/user/z/zhjie/quickECALMonitor/inputs/2022_scale_v2.txt/eos/user/z/zhjie/quickECALMonitor/outputs/2022_scale_v2//eos/user/z/zhjie/quickECALMonitor/outputs/2022_scale_v2/2022_scale_v2_all.root
+[52]	 Ntuples list: /eos/user/z/zhjie/quickECALMonitor/inputs/2022_scale_v2.txt
+	 Output file: /eos/user/z/zhjie/quickECALMonitor/outputs/2022_scale_v2/2022_scale_v2_all.root
+	 Events PerBin: 10000
+	 Time bins file: inputs/Run3_timebins_all.root
+	 Lumi file: inputs/Run3.dat
+
+
+[59]Ntuples to analyse :/eos/user/z/zhjie/Plot/quickECALMonitor/jsonFilter/ntuple_2022.root
+	/eos/user/z/zhjie/Plot/quickECALMonitor/jsonFilter/ntuple_2022.root
+[68]recal Tree to analyse :
+[237] Checking time limits...
+ debug1/eos/user/z/zhjie/Plot/quickECALMonitor/jsonFilter/ntuple_2022.root
+ debug0/eos/user/z/zhjie/Plot/quickECALMonitor/jsonFilter/ntuple_2022.root
+ debug0/eos/user/z/zhjie/Plot/quickECALMonitor/jsonFilter/ntuple_2022.root
+ debug0
+[258]/eos/user/z/zhjie/Plot/quickECALMonitor/jsonFilter/ntuple_2022.root : 2022-07-10 14:22:33 - 2022-11-28 05:58:54
+[265] Begin time : 2022-07-10 14:22:33 (1657455753) End time : 2022-11-28 05:58:54 (1669611534)
+ debug1
+[270] Reading lumi file...
+[298] Fill info:
+	Time			Fill	Luminosity[/pb]
+	2022-07-05 02:13:00	7916	0.000000
+	2022-07-05 16:47:25	7920	0.000000
+	2022-07-06 04:34:27	7921	0.000000
+	2022-07-07 02:21:21	7923	0.000000
+	2022-07-10 14:15:14	7960	0.000000
+	2022-07-11 04:27:34	7963	0.000000
+	2022-07-11 16:40:20	7965	0.000000
+	2022-07-11 19:19:12	7966	0.000000
+	2022-07-12 03:33:38	7967	0.000000
+	2022-07-13 02:38:06	7969	0.000000
+	2022-07-14 18:56:48	7978	0.000000
+	2022-07-18 05:13:25	8007	0.000000
+	2022-07-19 20:08:10	8016	0.000000
+	2022-07-20 00:59:37	8017	0.000000
+	2022-07-20 12:19:59	8018	0.000000
+	2022-07-20 16:17:20	8019	0.000000
+	2022-07-20 20:48:52	8020	0.000000
+	2022-07-21 03:54:49	8022	0.000000
+	2022-07-21 08:45:12	8023	0.000000
+	2022-07-22 01:02:22	8027	0.000000
+	2022-07-22 19:52:29	8030	0.000000
+	2022-07-23 14:41:42	8033	0.000000
+	2022-07-25 13:05:49	8043	0.000000
+	2022-07-25 19:44:11	8046	0.000000
+	2022-07-27 19:55:16	8057	0.000000
+	2022-07-27 23:39:15	8058	0.000000
+	2022-07-28 02:59:10	8059	0.000000
+	2022-07-28 18:45:47	8062	0.000000
+	2022-07-28 21:03:54	8063	0.000000
+	2022-07-29 15:49:44	8067	0.000000
+	2022-07-30 00:05:07	8068	0.000000
+	2022-07-30 11:56:01	8072	0.000000
+	2022-07-31 02:47:34	8073	0.000000
+	2022-07-31 20:50:55	8076	0.000000
+	2022-08-01 16:48:31	8078	0.000000
+	2022-08-01 20:52:00	8079	0.000000
+	2022-08-02 07:10:44	8081	0.000000
+	2022-08-02 20:10:28	8083	0.000000
+	2022-08-04 00:03:47	8087	0.000000
+	2022-08-04 03:05:17	8088	0.000000
+	2022-08-04 21:35:16	8091	0.000000
+	2022-08-05 04:19:24	8094	0.000000
+	2022-08-06 03:12:57	8098	0.000000
+	2022-08-06 05:55:58	8099	0.000000
+	2022-08-06 16:01:53	8100	0.000000
+	2022-08-06 19:25:42	8102	0.000000
+	2022-08-07 12:59:20	8103	0.000000
+	2022-08-08 07:45:05	8106	0.000000
+	2022-08-08 18:49:29	8108	0.000000
+	2022-08-09 02:58:16	8111	0.000000
+	2022-08-09 04:54:58	8112	0.000000
+	2022-08-09 18:54:25	8113	0.000000
+	2022-08-10 21:33:13	8115	0.000000
+	2022-08-11 21:45:10	8118	0.000001
+	2022-08-12 20:56:39	8120	0.000000
+	2022-08-13 04:46:57	8121	0.000000
+	2022-08-13 16:36:38	8124	0.000000
+	2022-08-14 08:44:57	8125	0.000000
+	2022-08-14 20:41:14	8128	0.000000
+	2022-08-15 22:36:32	8132	0.000000
+	2022-08-17 07:34:00	8136	0.000000
+	2022-08-19 02:51:06	8142	0.000000
+	2022-08-19 08:52:59	8143	0.000000
+	2022-08-20 01:21:32	8144	0.000000
+	2022-08-20 12:01:09	8146	0.000000
+	2022-08-21 00:52:12	8147	0.000000
+	2022-08-21 09:27:00	8148	0.000000
+	2022-08-21 22:58:51	8149	0.000001
+	2022-08-23 01:40:35	8151	0.000000
+	2022-09-23 18:44:08	8177	0.000000
+	2022-09-24 00:21:33	8178	0.000000
+	2022-09-26 17:53:44	8181	0.000000
+	2022-09-27 02:27:37	8184	0.000000
+	2022-09-29 16:22:17	8210	0.000000
+	2022-09-30 02:53:03	8211	0.000000
+	2022-09-30 07:21:39	8212	0.000000
+	2022-09-30 16:54:06	8214	0.000000
+	2022-09-30 22:47:14	8216	0.000000
+	2022-10-01 12:46:03	8220	0.000001
+	2022-10-02 04:39:03	8221	0.000000
+	2022-10-02 20:37:50	8222	0.000000
+	2022-10-03 13:37:49	8223	0.000000
+	2022-10-04 01:14:27	8225	0.000000
+	2022-10-04 15:35:02	8226	0.000000
+	2022-10-05 00:41:41	8228	0.000000
+	2022-10-05 20:53:52	8230	0.000000
+	2022-10-06 07:07:33	8232	0.000000
+	2022-10-06 12:24:34	8233	0.000001
+	2022-10-07 18:17:45	8236	0.000000
+	2022-10-08 13:21:01	8238	0.000001
+	2022-10-09 22:40:46	8245	0.000000
+	2022-10-10 15:52:55	8247	0.000001
+	2022-10-11 07:31:12	8248	0.000000
+	2022-10-12 03:08:06	8253	0.000001
+	2022-10-13 04:44:16	8260	0.000000
+	2022-10-14 02:25:36	8263	0.000000
+	2022-10-14 22:28:53	8267	0.000000
+	2022-10-15 04:46:53	8269	0.000000
+	2022-10-15 11:29:51	8272	0.000000
+	2022-10-15 15:02:15	8273	0.000000
+	2022-10-15 22:23:50	8274	0.000001
+	2022-10-16 19:00:52	8276	0.000000
+	2022-10-19 12:34:59	8289	0.000000
+	2022-10-19 17:02:11	8293	0.000000
+	2022-10-20 01:56:45	8295	0.000000
+	2022-10-20 15:45:03	8297	0.000000
+	2022-10-21 13:12:32	8299	0.000000
+	2022-10-21 18:53:37	8301	0.000000
+	2022-10-22 00:36:46	8302	0.000001
+	2022-10-22 18:01:25	8304	0.000001
+	2022-10-23 03:06:25	8305	0.000000
+	2022-10-23 17:35:40	8306	0.000001
+	2022-10-24 12:23:17	8307	0.000000
+	2022-10-24 19:05:01	8309	0.000000
+	2022-10-25 02:03:13	8311	0.000001
+	2022-10-25 16:24:28	8312	0.000000
+	2022-10-25 18:39:55	8313	0.000000
+	2022-10-26 01:35:04	8314	0.000000
+	2022-10-26 20:31:01	8315	0.000001
+	2022-10-27 15:21:29	8316	0.000000
+	2022-10-27 22:29:16	8317	0.000000
+	2022-10-28 14:53:41	8319	0.000001
+	2022-10-28 22:08:38	8320	0.000001
+	2022-10-29 08:02:54	8321	0.000000
+	2022-10-30 01:23:31	8322	0.000000
+	2022-10-30 11:05:36	8324	0.000000
+	2022-10-31 03:35:12	8327	0.000001
+	2022-10-31 18:19:43	8330	0.000001
+	2022-11-01 05:23:57	8331	0.000001
+	2022-11-01 19:10:45	8333	0.000001
+	2022-11-02 12:34:23	8334	0.000000
+	2022-11-03 03:17:05	8335	0.000001
+	2022-11-03 21:41:49	8342	0.000000
+	2022-11-04 22:57:13	8345	0.000000
+	2022-11-05 09:30:59	8347	0.000000
+	2022-11-10 01:05:53	8379	0.000000
+	2022-11-10 20:32:01	8381	0.000000
+	2022-11-11 23:07:11	8383	0.000000
+	2022-11-12 04:06:55	8385	0.000001
+	2022-11-12 18:50:51	8387	0.000000
+	2022-11-13 15:15:54	8389	0.000000
+	2022-11-14 09:33:53	8392	0.000000
+	2022-11-14 17:00:10	8395	0.000001
+	2022-11-15 12:02:19	8398	0.000001
+	2022-11-16 02:17:03	8399	0.000001
+	2022-11-16 14:18:07	8401	0.000000
+	2022-11-17 03:21:39	8402	0.000000
+	2022-11-21 12:32:34	8456	0.000001
+	2022-11-23 21:59:10	8471	0.000000
+	2022-11-24 07:31:28	8474	0.000001
+	2022-11-24 21:53:39	8479	0.000000
+	2022-11-25 08:52:25	8484	0.000000
+	2022-11-26 01:41:11	8489	0.000001
+	2022-11-26 23:58:15	8491	0.000000
+	2022-11-27 23:14:23	8496	0.000000
+	2023-04-06 09:39:32	8540	0.000000
+	2023-04-06 12:51:40	8541	0.000000
+	2023-04-06 17:05:24	8542	0.000000
+	2023-04-07 15:13:49	8550	0.000000
+	2023-04-09 09:00:33	8558	0.000000
+	2023-04-09 11:10:10	8559	0.000000
+	2023-04-21 18:58:03	8637	0.000000
+	2023-04-22 05:35:22	8639	0.000000
+	2023-04-22 22:29:16	8642	0.000000
+	2023-04-23 13:49:23	8644	0.000000
+	2023-04-24 02:32:06	8645	0.000000
+	2023-04-25 03:42:10	8654	0.000000
+	2023-04-27 23:50:24	8675	0.000000
+	2023-04-29 09:43:19	8685	0.000000
+	2023-04-29 20:16:33	8686	0.000000
+	2023-04-30 10:56:00	8690	0.000000
+	2023-04-30 20:24:25	8691	0.000000
+	2023-05-01 03:02:13	8692	0.000000
+	2023-05-01 13:19:49	8695	0.000000
+	2023-05-02 00:15:20	8696	0.000000
+	2023-05-03 02:55:37	8701	0.000000
+	2023-05-05 13:38:14	8723	0.000000
+	2023-05-05 22:58:17	8724	0.000000
+	2023-05-06 05:51:04	8725	0.000000
+	2023-05-06 13:22:21	8728	0.000000
+	2023-05-06 20:08:58	8729	0.000000
+	2023-05-07 09:23:37	8730	0.000000
+	2023-05-07 22:42:10	8731	0.000000
+	2023-05-08 23:45:49	8736	0.000001
+	2023-05-09 18:06:01	8738	0.000000
+	2023-05-10 05:36:43	8739	0.000000
+	2023-05-10 21:23:09	8741	0.000000
+	2023-05-11 11:40:12	8746	0.000000
+	2023-05-12 03:29:48	8750	0.000000
+	2023-05-12 16:37:47	8754	0.000001
+	2023-05-14 12:32:46	8771	0.000001
+	2023-05-15 07:37:44	8773	0.000000
+	2023-05-16 00:20:49	8775	0.000000
+	2023-05-16 14:46:05	8778	0.000000
+	2023-05-17 04:48:47	8782	0.000000
+	2023-05-18 00:24:20	8784	0.000000
+	2023-05-18 14:44:56	8786	0.000001
+	2023-05-19 19:39:55	8794	0.000000
+	2023-05-20 05:15:54	8796	0.000000
+	2023-05-21 05:46:52	8804	0.000000
+	2023-05-21 16:39:17	8807	0.000000
+	2023-05-22 04:54:28	8811	0.000000
+	2023-05-22 19:57:53	8816	0.000000
+	2023-05-23 02:05:48	8817	0.000001
+	2023-05-24 01:37:24	8821	0.000001
+	2023-05-24 19:32:12	8822	0.000001
+	2023-05-30 19:28:11	8850	0.000000
+	2023-05-31 02:14:32	8853	0.000000
+	2023-06-01 15:07:09	8858	0.000000
+	2023-06-02 00:03:54	8860	0.000001
+	2023-06-02 18:02:12	8863	0.000000
+	2023-06-03 02:21:23	8865	0.000000
+	2023-06-03 14:49:45	8866	0.000000
+	2023-06-04 01:48:27	8870	0.000000
+	2023-06-04 16:13:56	8872	0.000000
+	2023-06-04 21:23:36	8873	0.000001
+	2023-06-05 15:05:43	8877	0.000000
+	2023-06-06 05:47:15	8880	0.000001
+	2023-06-07 00:34:56	8882	0.000001
+	2023-06-08 02:28:01	8885	0.000001
+	2023-06-08 23:30:58	8887	0.000000
+	2023-06-09 15:09:54	8891	0.000001
+	2023-06-10 09:12:44	8894	0.000001
+	2023-06-11 02:03:05	8895	0.000000
+	2023-06-11 13:26:12	8896	0.000001
+	2023-06-13 04:27:34	8901	0.000000
+	2023-06-28 12:30:57	8997	0.000000
+	2023-06-28 22:17:48	8999	0.000000
+	2023-06-30 13:16:10	9007	0.000000
+	2023-07-01 09:14:34	9014	0.000000
+	2023-07-01 14:26:27	9016	0.000000
+	2023-07-01 18:44:46	9017	0.000000
+	2023-07-02 05:23:16	9019	0.000000
+	2023-07-02 18:21:04	9022	0.000000
+	2023-07-03 01:59:00	9023	0.000000
+	2023-07-04 01:30:01	9029	0.000001
+	2023-07-04 18:56:34	9031	0.000001
+	2023-07-05 13:03:53	9035	0.000001
+	2023-07-06 03:17:46	9036	0.000001
+	2023-07-07 13:09:05	9043	0.000000
+	2023-07-08 06:06:47	9044	0.000001
+	2023-07-08 21:40:44	9045	0.000001
+	2023-07-09 12:56:49	9046	0.000000
+	2023-07-09 21:08:00	9049	0.000001
+	2023-07-10 14:29:05	9050	0.000000
+	2023-07-11 05:19:32	9055	0.000000
+	2023-07-11 09:20:10	9056	0.000000
+	2023-07-11 11:37:53	9057	0.000001
+	2023-07-12 01:55:07	9059	0.000000
+	2023-07-12 14:36:48	9062	0.000000
+	2023-07-12 19:38:53	9063	0.000001
+	2023-07-14 09:40:22	9066	0.000000
+	2023-07-15 03:10:11	9067	0.000000
+	2023-07-15 07:13:30	9068	0.000001
+	2023-07-15 19:20:26	9070	0.000001
+[343] Lumisection times read from file inputs/Run3.dat
+ debug2
+[410]Making fine-binned time histograms... 
+ debug3
+[102] Skimming ntuple /eos/user/z/zhjie/Plot/quickECALMonitor/jsonFilter/ntuple_2022.root
+[364] Optimising time bins for EB
+[406]EB: Number of bins = 851
+[364] Optimising time bins for EBHR9
+[406]EBHR9: Number of bins = 190
+[364] Optimising time bins for EBLR9
+[406]EBLR9: Number of bins = 249
+[364] Optimising time bins for EE
+[406]EE: Number of bins = 162
+[364] Optimising time bins for EEHR9
+[406]EEHR9: Number of bins = 67
+[364] Optimising time bins for EELR9
+[406]EELR9: Number of bins = 31
+[117] Time bins written to file inputs/Run3_timebins_all.root
+cat EB
+EB  has  851 bins
+[448] # of bins  in EB: 852
+		events= 8459358.000000
+[483]TH1D created: mee_in_EB
+[474]TH2D created: mee_vs_time_in_EB
+cat EBHR9
+EBHR9  has  190 bins
+[448] # of bins  in EBHR9: 191
+		events= 1839260.000000
+[483]TH1D created: mee_in_EBHR9
+[474]TH2D created: mee_vs_time_in_EBHR9
+cat EBLR9
+EBLR9  has  249 bins
+[448] # of bins  in EBLR9: 250
+		events= 2430552.000000
+[483]TH1D created: mee_in_EBLR9
+[474]TH2D created: mee_vs_time_in_EBLR9
+cat EE
+EE  has  162 bins
+[448] # of bins  in EE: 163
+		events= 1555911.000000
+[483]TH1D created: mee_in_EE
+[474]TH2D created: mee_vs_time_in_EE
+cat EEHR9
+EEHR9  has  67 bins
+[448] # of bins  in EEHR9: 68
+		events= 592938.000000
+[483]TH1D created: mee_in_EEHR9
+[474]TH2D created: mee_vs_time_in_EEHR9
+cat EELR9
+EELR9  has  31 bins
+[448] # of bins  in EELR9: 32
+		events= 227324.000000
+[483]TH1D created: mee_in_EELR9
+[474]TH2D created: mee_vs_time_in_EELR9
+	Added ntuple /eos/user/z/zhjie/Plot/quickECALMonitor/jsonFilter/ntuple_2022.root
+[581] Analysing ntuples 
+[665] Histograms saved to file: /eos/user/z/zhjie/quickECALMonitor/outputs/2022_scale_v2/2022_scale_v2_all.root
+[121] Making time evolution graphs from file /eos/user/z/zhjie/quickECALMonitor/outputs/2022_scale_v2/2022_scale_v2_all.root
+[139] Found TH2D mee_vs_time_in_EB
+[141] 	 Making median vs time graph...
+Making TGraphAsymmErrors for mee_vs_time_in_EB (median) with 200 resamplings, 100.000000 % width, and 95.000000 % confidence
+201
+bin 1 of 851
+bin 2 of 851
+bin 3 of 851
+bin 4 of 851
+bin 5 of 851
+bin 6 of 851
+bin 7 of 851
+bin 8 of 851
+bin 9 of 851
+bin 10 of 851
+bin 11 of 851
+bin 12 of 851
+bin 13 of 851
+bin 14 of 851
+bin 15 of 851
+bin 16 of 851
+bin 17 of 851
+bin 18 of 851
+bin 19 of 851
+bin 20 of 851
+bin 21 of 851
+bin 22 of 851
+bin 23 of 851
+bin 24 of 851
+bin 25 of 851
+bin 26 of 851
+bin 27 of 851
+bin 28 of 851
+bin 29 of 851
+bin 30 of 851
+bin 31 of 851
+bin 32 of 851
+bin 33 of 851
+bin 34 of 851
+bin 35 of 851
+bin 36 of 851
+bin 37 of 851
+bin 38 of 851
+bin 39 of 851
+bin 40 of 851
+bin 41 of 851
+bin 42 of 851
+bin 43 of 851
+bin 44 of 851
+bin 45 of 851
+bin 46 of 851
+bin 47 of 851
+bin 48 of 851
+bin 49 of 851
+bin 50 of 851
+bin 51 of 851
+bin 52 of 851
+bin 53 of 851
+bin 54 of 851
+bin 55 of 851
+bin 56 of 851
+bin 57 of 851
+bin 58 of 851
+bin 59 of 851
+bin 60 of 851
+bin 61 of 851
+bin 62 of 851
+bin 63 of 851
+bin 64 of 851
+bin 65 of 851
+bin 66 of 851
+bin 67 of 851
+bin 68 of 851
+bin 69 of 851
+bin 70 of 851
+bin 71 of 851
+bin 72 of 851
+bin 73 of 851
+bin 74 of 851
+bin 75 of 851
+bin 76 of 851
+bin 77 of 851
+bin 78 of 851
+bin 79 of 851
+bin 80 of 851
+bin 81 of 851
+bin 82 of 851
+bin 83 of 851
+bin 84 of 851
+bin 85 of 851
+bin 86 of 851
+bin 87 of 851
+bin 88 of 851
+bin 89 of 851
+bin 90 of 851
+bin 91 of 851
+bin 92 of 851
+bin 93 of 851
+bin 94 of 851
+bin 95 of 851
+bin 96 of 851
+bin 97 of 851
+bin 98 of 851
+bin 99 of 851
+bin 100 of 851
+bin 101 of 851
+bin 102 of 851
+bin 103 of 851
+bin 104 of 851
+bin 105 of 851
+bin 106 of 851
+bin 107 of 851
+bin 108 of 851
+bin 109 of 851
+bin 110 of 851
+bin 111 of 851
+bin 112 of 851
+bin 113 of 851
+bin 114 of 851
+bin 115 of 851
+bin 116 of 851
+bin 117 of 851
+bin 118 of 851
+bin 119 of 851
+bin 120 of 851
+bin 121 of 851
+bin 122 of 851
+bin 123 of 851
+bin 124 of 851
+bin 125 of 851
+bin 126 of 851
+bin 127 of 851
+bin 128 of 851
+bin 129 of 851
+bin 130 of 851
+bin 131 of 851
+bin 132 of 851
+bin 133 of 851
+bin 134 of 851
+bin 135 of 851
+bin 136 of 851
+bin 137 of 851
+bin 138 of 851
+bin 139 of 851
+bin 140 of 851
+bin 141 of 851
+bin 142 of 851
+bin 143 of 851
+bin 144 of 851
+bin 145 of 851
+bin 146 of 851
+bin 147 of 851
+bin 148 of 851
+bin 149 of 851
+bin 150 of 851
+bin 151 of 851
+bin 152 of 851
+bin 153 of 851
+bin 154 of 851
+bin 155 of 851
+bin 156 of 851
+bin 157 of 851
+bin 158 of 851
+bin 159 of 851
+bin 160 of 851
+bin 161 of 851
+bin 162 of 851
+bin 163 of 851
+bin 164 of 851
+bin 165 of 851
+bin 166 of 851
+bin 167 of 851
+bin 168 of 851
+bin 169 of 851
+bin 170 of 851
+bin 171 of 851
+bin 172 of 851
+bin 173 of 851
+bin 174 of 851
+bin 175 of 851
+bin 176 of 851
+bin 177 of 851
+bin 178 of 851
+bin 179 of 851
+bin 180 of 851
+bin 181 of 851
+bin 182 of 851
+bin 183 of 851
+bin 184 of 851
+bin 185 of 851
+bin 186 of 851
+bin 187 of 851
+bin 188 of 851
+bin 189 of 851
+bin 190 of 851
+bin 191 of 851
+bin 192 of 851
+bin 193 of 851
+bin 194 of 851
+bin 195 of 851
+bin 196 of 851
+bin 197 of 851
+bin 198 of 851
+bin 199 of 851
+bin 200 of 851
+bin 201 of 851
+bin 202 of 851
+bin 203 of 851
+bin 204 of 851
+bin 205 of 851
+bin 206 of 851
+bin 207 of 851
+bin 208 of 851
+bin 209 of 851
+bin 210 of 851
+bin 211 of 851
+bin 212 of 851
+bin 213 of 851
+bin 214 of 851
+bin 215 of 851
+bin 216 of 851
+bin 217 of 851
+Warning: Empty histogram median_mee_vs_time_in_EB217
+bin 218 of 851
+Warning: Empty histogram median_mee_vs_time_in_EB218
+bin 219 of 851
+Warning: Empty histogram median_mee_vs_time_in_EB219
+bin 220 of 851
+Warning: Empty histogram median_mee_vs_time_in_EB220
+bin 221 of 851
+bin 222 of 851
+bin 223 of 851
+bin 224 of 851
+bin 225 of 851
+bin 226 of 851
+bin 227 of 851
+bin 228 of 851
+bin 229 of 851
+bin 230 of 851
+bin 231 of 851
+bin 232 of 851
+bin 233 of 851
+bin 234 of 851
+bin 235 of 851
+bin 236 of 851
+bin 237 of 851
+bin 238 of 851
+bin 239 of 851
+bin 240 of 851
+bin 241 of 851
+bin 242 of 851
+bin 243 of 851
+bin 244 of 851
+bin 245 of 851
+bin 246 of 851
+bin 247 of 851
+bin 248 of 851
+bin 249 of 851
+bin 250 of 851
+bin 251 of 851
+bin 252 of 851
+bin 253 of 851
+bin 254 of 851
+bin 255 of 851
+bin 256 of 851
+bin 257 of 851
+bin 258 of 851
+bin 259 of 851
+bin 260 of 851
+bin 261 of 851
+bin 262 of 851
+bin 263 of 851
+bin 264 of 851
+bin 265 of 851
+bin 266 of 851
+bin 267 of 851
+bin 268 of 851
+bin 269 of 851
+bin 270 of 851
+bin 271 of 851
+bin 272 of 851
+bin 273 of 851
+bin 274 of 851
+bin 275 of 851
+bin 276 of 851
+bin 277 of 851
+bin 278 of 851
+bin 279 of 851
+bin 280 of 851
+bin 281 of 851
+bin 282 of 851
+bin 283 of 851
+bin 284 of 851
+bin 285 of 851
+bin 286 of 851
+bin 287 of 851
+bin 288 of 851
+bin 289 of 851
+bin 290 of 851
+bin 291 of 851
+bin 292 of 851
+bin 293 of 851
+bin 294 of 851
+bin 295 of 851
+bin 296 of 851
+bin 297 of 851
+bin 298 of 851
+bin 299 of 851
+bin 300 of 851
+bin 301 of 851
+bin 302 of 851
+bin 303 of 851
+bin 304 of 851
+bin 305 of 851
+bin 306 of 851
+bin 307 of 851
+bin 308 of 851
+bin 309 of 851
+bin 310 of 851
+bin 311 of 851
+bin 312 of 851
+bin 313 of 851
+bin 314 of 851
+bin 315 of 851
+bin 316 of 851
+bin 317 of 851
+bin 318 of 851
+bin 319 of 851
+bin 320 of 851
+bin 321 of 851
+bin 322 of 851
+bin 323 of 851
+bin 324 of 851
+bin 325 of 851
+bin 326 of 851
+bin 327 of 851
+bin 328 of 851
+bin 329 of 851
+bin 330 of 851
+bin 331 of 851
+bin 332 of 851
+bin 333 of 851
+bin 334 of 851
+bin 335 of 851
+bin 336 of 851
+bin 337 of 851
+bin 338 of 851
+bin 339 of 851
+bin 340 of 851
+bin 341 of 851
+bin 342 of 851
+bin 343 of 851
+bin 344 of 851
+bin 345 of 851
+bin 346 of 851
+bin 347 of 851
+bin 348 of 851
+bin 349 of 851
+bin 350 of 851
+bin 351 of 851
+bin 352 of 851
+bin 353 of 851
+bin 354 of 851
+bin 355 of 851
+bin 356 of 851
+bin 357 of 851
+bin 358 of 851
+bin 359 of 851
+bin 360 of 851
+bin 361 of 851
+bin 362 of 851
+bin 363 of 851
+bin 364 of 851
+bin 365 of 851
+bin 366 of 851
+bin 367 of 851
+bin 368 of 851
+bin 369 of 851
+bin 370 of 851
+bin 371 of 851
+bin 372 of 851
+bin 373 of 851
+bin 374 of 851
+bin 375 of 851
+bin 376 of 851
+bin 377 of 851
+bin 378 of 851
+bin 379 of 851
+bin 380 of 851
+bin 381 of 851
+bin 382 of 851
+bin 383 of 851
+bin 384 of 851
+bin 385 of 851
+bin 386 of 851
+bin 387 of 851
+bin 388 of 851
+bin 389 of 851
+bin 390 of 851
+bin 391 of 851
+bin 392 of 851
+bin 393 of 851
+bin 394 of 851
+bin 395 of 851
+bin 396 of 851
+bin 397 of 851
+bin 398 of 851
+bin 399 of 851
+bin 400 of 851
+bin 401 of 851
+bin 402 of 851
+bin 403 of 851
+bin 404 of 851
+bin 405 of 851
+bin 406 of 851
+bin 407 of 851
+bin 408 of 851
+bin 409 of 851
+bin 410 of 851
+bin 411 of 851
+bin 412 of 851
+bin 413 of 851
+bin 414 of 851
+bin 415 of 851
+bin 416 of 851
+bin 417 of 851
+bin 418 of 851
+bin 419 of 851
+bin 420 of 851
+bin 421 of 851
+bin 422 of 851
+bin 423 of 851
+bin 424 of 851
+bin 425 of 851
+bin 426 of 851
+bin 427 of 851
+bin 428 of 851
+bin 429 of 851
+bin 430 of 851
+bin 431 of 851
+bin 432 of 851
+bin 433 of 851
+bin 434 of 851
+bin 435 of 851
+bin 436 of 851
+bin 437 of 851
+bin 438 of 851
+bin 439 of 851
+bin 440 of 851
+bin 441 of 851
+bin 442 of 851
+bin 443 of 851
+bin 444 of 851
+bin 445 of 851
+bin 446 of 851
+bin 447 of 851
+bin 448 of 851
+bin 449 of 851
+bin 450 of 851
+bin 451 of 851
+bin 452 of 851
+bin 453 of 851
+bin 454 of 851
+bin 455 of 851
+bin 456 of 851
+bin 457 of 851
+bin 458 of 851
+bin 459 of 851
+bin 460 of 851
+bin 461 of 851
+bin 462 of 851
+bin 463 of 851
+bin 464 of 851
+bin 465 of 851
+bin 466 of 851
+bin 467 of 851
+bin 468 of 851
+bin 469 of 851
+bin 470 of 851
+bin 471 of 851
+bin 472 of 851
+bin 473 of 851
+bin 474 of 851
+bin 475 of 851
+bin 476 of 851
+bin 477 of 851
+bin 478 of 851
+bin 479 of 851
+bin 480 of 851
+bin 481 of 851
+bin 482 of 851
+bin 483 of 851
+bin 484 of 851
+bin 485 of 851
+bin 486 of 851
+bin 487 of 851
+bin 488 of 851
+bin 489 of 851
+bin 490 of 851
+bin 491 of 851
+bin 492 of 851
+bin 493 of 851
+bin 494 of 851
+bin 495 of 851
+bin 496 of 851
+bin 497 of 851
+bin 498 of 851
+bin 499 of 851
+bin 500 of 851
+bin 501 of 851
+bin 502 of 851
+bin 503 of 851
+bin 504 of 851
+bin 505 of 851
+bin 506 of 851
+bin 507 of 851
+bin 508 of 851
+bin 509 of 851
+bin 510 of 851
+bin 511 of 851
+bin 512 of 851
+bin 513 of 851
+bin 514 of 851
+bin 515 of 851
+bin 516 of 851
+bin 517 of 851
+bin 518 of 851
+bin 519 of 851
+bin 520 of 851
+bin 521 of 851
+bin 522 of 851
+bin 523 of 851
+bin 524 of 851
+bin 525 of 851
+bin 526 of 851
+bin 527 of 851
+bin 528 of 851
+bin 529 of 851
+bin 530 of 851
+bin 531 of 851
+bin 532 of 851
+bin 533 of 851
+bin 534 of 851
+bin 535 of 851
+bin 536 of 851
+bin 537 of 851
+bin 538 of 851
+bin 539 of 851
+bin 540 of 851
+bin 541 of 851
+bin 542 of 851
+bin 543 of 851
+bin 544 of 851
+bin 545 of 851
+bin 546 of 851
+bin 547 of 851
+bin 548 of 851
+bin 549 of 851
+bin 550 of 851
+bin 551 of 851
+bin 552 of 851
+bin 553 of 851
+bin 554 of 851
+bin 555 of 851
+bin 556 of 851
+bin 557 of 851
+bin 558 of 851
+bin 559 of 851
+bin 560 of 851
+bin 561 of 851
+bin 562 of 851
+bin 563 of 851
+bin 564 of 851
+bin 565 of 851
+bin 566 of 851
+bin 567 of 851
+bin 568 of 851
+bin 569 of 851
+bin 570 of 851
+bin 571 of 851
+bin 572 of 851
+bin 573 of 851
+bin 574 of 851
+bin 575 of 851
+bin 576 of 851
+bin 577 of 851
+bin 578 of 851
+bin 579 of 851
+bin 580 of 851
+bin 581 of 851
+bin 582 of 851
+bin 583 of 851
+bin 584 of 851
+bin 585 of 851
+bin 586 of 851
+bin 587 of 851
+bin 588 of 851
+bin 589 of 851
+bin 590 of 851
+bin 591 of 851
+bin 592 of 851
+bin 593 of 851
+bin 594 of 851
+bin 595 of 851
+bin 596 of 851
+bin 597 of 851
+bin 598 of 851
+bin 599 of 851
+bin 600 of 851
+bin 601 of 851
+bin 602 of 851
+bin 603 of 851
+bin 604 of 851
+bin 605 of 851
+bin 606 of 851
+bin 607 of 851
+bin 608 of 851
+bin 609 of 851
+bin 610 of 851
+bin 611 of 851
+bin 612 of 851
+bin 613 of 851
+bin 614 of 851
+bin 615 of 851
+bin 616 of 851
+bin 617 of 851
+bin 618 of 851
+bin 619 of 851
+bin 620 of 851
+bin 621 of 851
+bin 622 of 851
+bin 623 of 851
+bin 624 of 851
+bin 625 of 851
+bin 626 of 851
+bin 627 of 851
+bin 628 of 851
+bin 629 of 851
+bin 630 of 851
+bin 631 of 851
+bin 632 of 851
+bin 633 of 851
+bin 634 of 851
+bin 635 of 851
+bin 636 of 851
+bin 637 of 851
+bin 638 of 851
+bin 639 of 851
+bin 640 of 851
+bin 641 of 851
+bin 642 of 851
+bin 643 of 851
+bin 644 of 851
+bin 645 of 851
+bin 646 of 851
+bin 647 of 851
+bin 648 of 851
+bin 649 of 851
+bin 650 of 851
+bin 651 of 851
+bin 652 of 851
+bin 653 of 851
+bin 654 of 851
+bin 655 of 851
+bin 656 of 851
+bin 657 of 851
+bin 658 of 851
+bin 659 of 851
+bin 660 of 851
+bin 661 of 851
+bin 662 of 851
+bin 663 of 851
+bin 664 of 851
+bin 665 of 851
+bin 666 of 851
+bin 667 of 851
+bin 668 of 851
+bin 669 of 851
+bin 670 of 851
+bin 671 of 851
+bin 672 of 851
+bin 673 of 851
+bin 674 of 851
+bin 675 of 851
+bin 676 of 851
+bin 677 of 851
+bin 678 of 851
+bin 679 of 851
+bin 680 of 851
+bin 681 of 851
+bin 682 of 851
+bin 683 of 851
+bin 684 of 851
+bin 685 of 851
+bin 686 of 851
+bin 687 of 851
+bin 688 of 851
+bin 689 of 851
+bin 690 of 851
+bin 691 of 851
+bin 692 of 851
+bin 693 of 851
+bin 694 of 851
+bin 695 of 851
+bin 696 of 851
+bin 697 of 851
+bin 698 of 851
+bin 699 of 851
+bin 700 of 851
+bin 701 of 851
+bin 702 of 851
+bin 703 of 851
+bin 704 of 851
+bin 705 of 851
+bin 706 of 851
+bin 707 of 851
+bin 708 of 851
+bin 709 of 851
+bin 710 of 851
+bin 711 of 851
+bin 712 of 851
+bin 713 of 851
+bin 714 of 851
+bin 715 of 851
+bin 716 of 851
+bin 717 of 851
+bin 718 of 851
+bin 719 of 851
+bin 720 of 851
+bin 721 of 851
+bin 722 of 851
+bin 723 of 851
+bin 724 of 851
+bin 725 of 851
+bin 726 of 851
+bin 727 of 851
+bin 728 of 851
+bin 729 of 851
+bin 730 of 851
+bin 731 of 851
+bin 732 of 851
+bin 733 of 851
+bin 734 of 851
+bin 735 of 851
+bin 736 of 851
+bin 737 of 851
+bin 738 of 851
+bin 739 of 851
+bin 740 of 851
+bin 741 of 851
+bin 742 of 851
+bin 743 of 851
+bin 744 of 851
+bin 745 of 851
+bin 746 of 851
+bin 747 of 851
+bin 748 of 851
+bin 749 of 851
+bin 750 of 851
+bin 751 of 851
+bin 752 of 851
+bin 753 of 851
+bin 754 of 851
+bin 755 of 851
+bin 756 of 851
+bin 757 of 851
+bin 758 of 851
+bin 759 of 851
+bin 760 of 851
+bin 761 of 851
+bin 762 of 851
+bin 763 of 851
+bin 764 of 851
+bin 765 of 851
+bin 766 of 851
+bin 767 of 851
+bin 768 of 851
+bin 769 of 851
+bin 770 of 851
+bin 771 of 851
+bin 772 of 851
+bin 773 of 851
+bin 774 of 851
+bin 775 of 851
+bin 776 of 851
+bin 777 of 851
+bin 778 of 851
+bin 779 of 851
+bin 780 of 851
+bin 781 of 851
+bin 782 of 851
+bin 783 of 851
+bin 784 of 851
+bin 785 of 851
+bin 786 of 851
+bin 787 of 851
+bin 788 of 851
+bin 789 of 851
+bin 790 of 851
+bin 791 of 851
+bin 792 of 851
+bin 793 of 851
+bin 794 of 851
+bin 795 of 851
+bin 796 of 851
+bin 797 of 851
+bin 798 of 851
+bin 799 of 851
+bin 800 of 851
+bin 801 of 851
+bin 802 of 851
+bin 803 of 851
+bin 804 of 851
+bin 805 of 851
+bin 806 of 851
+bin 807 of 851
+bin 808 of 851
+bin 809 of 851
+bin 810 of 851
+bin 811 of 851
+bin 812 of 851
+bin 813 of 851
+bin 814 of 851
+bin 815 of 851
+bin 816 of 851
+bin 817 of 851
+bin 818 of 851
+bin 819 of 851
+bin 820 of 851
+bin 821 of 851
+bin 822 of 851
+bin 823 of 851
+bin 824 of 851
+bin 825 of 851
+bin 826 of 851
+bin 827 of 851
+bin 828 of 851
+bin 829 of 851
+bin 830 of 851
+bin 831 of 851
+bin 832 of 851
+bin 833 of 851
+bin 834 of 851
+bin 835 of 851
+bin 836 of 851
+bin 837 of 851
+bin 838 of 851
+bin 839 of 851
+bin 840 of 851
+bin 841 of 851
+bin 842 of 851
+bin 843 of 851
+bin 844 of 851
+bin 845 of 851
+bin 846 of 851
+bin 847 of 851
+bin 848 of 851
+bin 849 of 851
+bin 850 of 851
+bin 851 of 851
+218
+[149] 	 Making StdDev60% vs time graph...
+Making TGraphAsymmErrors for mee_vs_time_in_EB (stdev) with 200 resamplings, 60.000000 % width, and 95.000000 % confidence
+201
+bin 1 of 851
+bin 2 of 851
+bin 3 of 851
+bin 4 of 851
+bin 5 of 851
+bin 6 of 851
+bin 7 of 851
+bin 8 of 851
+bin 9 of 851
+bin 10 of 851
+bin 11 of 851
+bin 12 of 851
+bin 13 of 851
+bin 14 of 851
+bin 15 of 851
+bin 16 of 851
+bin 17 of 851
+bin 18 of 851
+bin 19 of 851
+bin 20 of 851
+bin 21 of 851
+bin 22 of 851
+bin 23 of 851
+bin 24 of 851
+bin 25 of 851
+bin 26 of 851
+bin 27 of 851
+bin 28 of 851
+bin 29 of 851
+bin 30 of 851
+bin 31 of 851
+bin 32 of 851
+bin 33 of 851
+bin 34 of 851
+bin 35 of 851
+bin 36 of 851
+bin 37 of 851
+bin 38 of 851
+bin 39 of 851
+bin 40 of 851
+bin 41 of 851
+bin 42 of 851
+bin 43 of 851
+bin 44 of 851
+bin 45 of 851
+bin 46 of 851
+bin 47 of 851
+bin 48 of 851
+bin 49 of 851
+bin 50 of 851
+bin 51 of 851
+bin 52 of 851
+bin 53 of 851
+bin 54 of 851
+bin 55 of 851
+bin 56 of 851
+bin 57 of 851
+bin 58 of 851
+bin 59 of 851
+bin 60 of 851
+bin 61 of 851
+bin 62 of 851
+bin 63 of 851
+bin 64 of 851
+bin 65 of 851
+bin 66 of 851
+bin 67 of 851
+bin 68 of 851
+bin 69 of 851
+bin 70 of 851
+bin 71 of 851
+bin 72 of 851
+bin 73 of 851
+bin 74 of 851
+bin 75 of 851
+bin 76 of 851
+bin 77 of 851
+bin 78 of 851
+bin 79 of 851
+bin 80 of 851
+bin 81 of 851
+bin 82 of 851
+bin 83 of 851
+bin 84 of 851
+bin 85 of 851
+bin 86 of 851
+bin 87 of 851
+bin 88 of 851
+bin 89 of 851
+bin 90 of 851
+bin 91 of 851
+bin 92 of 851
+bin 93 of 851
+bin 94 of 851
+bin 95 of 851
+bin 96 of 851
+bin 97 of 851
+bin 98 of 851
+bin 99 of 851
+bin 100 of 851
+bin 101 of 851
+bin 102 of 851
+bin 103 of 851
+bin 104 of 851
+bin 105 of 851
+bin 106 of 851
+bin 107 of 851
+bin 108 of 851
+bin 109 of 851
+bin 110 of 851
+bin 111 of 851
+bin 112 of 851
+bin 113 of 851
+bin 114 of 851
+bin 115 of 851
+bin 116 of 851
+bin 117 of 851
+bin 118 of 851
+bin 119 of 851
+bin 120 of 851
+bin 121 of 851
+bin 122 of 851
+bin 123 of 851
+bin 124 of 851
+bin 125 of 851
+bin 126 of 851
+bin 127 of 851
+bin 128 of 851
+bin 129 of 851
+bin 130 of 851
+bin 131 of 851
+bin 132 of 851
+bin 133 of 851
+bin 134 of 851
+bin 135 of 851
+bin 136 of 851
+bin 137 of 851
+bin 138 of 851
+bin 139 of 851
+bin 140 of 851
+bin 141 of 851
+bin 142 of 851
+bin 143 of 851
+bin 144 of 851
+bin 145 of 851
+bin 146 of 851
+bin 147 of 851
+bin 148 of 851
+bin 149 of 851
+bin 150 of 851
+bin 151 of 851
+bin 152 of 851
+bin 153 of 851
+bin 154 of 851
+bin 155 of 851
+bin 156 of 851
+bin 157 of 851
+bin 158 of 851
+bin 159 of 851
+bin 160 of 851
+bin 161 of 851
+bin 162 of 851
+bin 163 of 851
+bin 164 of 851
+bin 165 of 851
+bin 166 of 851
+bin 167 of 851
+bin 168 of 851
+bin 169 of 851
+bin 170 of 851
+bin 171 of 851
+bin 172 of 851
+bin 173 of 851
+bin 174 of 851
+bin 175 of 851
+bin 176 of 851
+bin 177 of 851
+bin 178 of 851
+bin 179 of 851
+bin 180 of 851
+bin 181 of 851
+bin 182 of 851
+bin 183 of 851
+bin 184 of 851
+bin 185 of 851
+bin 186 of 851
+bin 187 of 851
+bin 188 of 851
+bin 189 of 851
+bin 190 of 851
+bin 191 of 851
+bin 192 of 851
+bin 193 of 851
+bin 194 of 851
+bin 195 of 851
+bin 196 of 851
+bin 197 of 851
+bin 198 of 851
+bin 199 of 851
+bin 200 of 851
+bin 201 of 851
+bin 202 of 851
+bin 203 of 851
+bin 204 of 851
+bin 205 of 851
+bin 206 of 851
+bin 207 of 851
+bin 208 of 851
+bin 209 of 851
+bin 210 of 851
+bin 211 of 851
+bin 212 of 851
+bin 213 of 851
+bin 214 of 851
+bin 215 of 851
+bin 216 of 851
+bin 217 of 851
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EB217
+bin 218 of 851
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EB218
+bin 219 of 851
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EB219
+bin 220 of 851
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EB220
+bin 221 of 851
+bin 222 of 851
+bin 223 of 851
+bin 224 of 851
+bin 225 of 851
+bin 226 of 851
+bin 227 of 851
+bin 228 of 851
+bin 229 of 851
+bin 230 of 851
+bin 231 of 851
+bin 232 of 851
+bin 233 of 851
+bin 234 of 851
+bin 235 of 851
+bin 236 of 851
+bin 237 of 851
+bin 238 of 851
+bin 239 of 851
+bin 240 of 851
+bin 241 of 851
+bin 242 of 851
+bin 243 of 851
+bin 244 of 851
+bin 245 of 851
+bin 246 of 851
+bin 247 of 851
+bin 248 of 851
+bin 249 of 851
+bin 250 of 851
+bin 251 of 851
+bin 252 of 851
+bin 253 of 851
+bin 254 of 851
+bin 255 of 851
+bin 256 of 851
+bin 257 of 851
+bin 258 of 851
+bin 259 of 851
+bin 260 of 851
+bin 261 of 851
+bin 262 of 851
+bin 263 of 851
+bin 264 of 851
+bin 265 of 851
+bin 266 of 851
+bin 267 of 851
+bin 268 of 851
+bin 269 of 851
+bin 270 of 851
+bin 271 of 851
+bin 272 of 851
+bin 273 of 851
+bin 274 of 851
+bin 275 of 851
+bin 276 of 851
+bin 277 of 851
+bin 278 of 851
+bin 279 of 851
+bin 280 of 851
+bin 281 of 851
+bin 282 of 851
+bin 283 of 851
+bin 284 of 851
+bin 285 of 851
+bin 286 of 851
+bin 287 of 851
+bin 288 of 851
+bin 289 of 851
+bin 290 of 851
+bin 291 of 851
+bin 292 of 851
+bin 293 of 851
+bin 294 of 851
+bin 295 of 851
+bin 296 of 851
+bin 297 of 851
+bin 298 of 851
+bin 299 of 851
+bin 300 of 851
+bin 301 of 851
+bin 302 of 851
+bin 303 of 851
+bin 304 of 851
+bin 305 of 851
+bin 306 of 851
+bin 307 of 851
+bin 308 of 851
+bin 309 of 851
+bin 310 of 851
+bin 311 of 851
+bin 312 of 851
+bin 313 of 851
+bin 314 of 851
+bin 315 of 851
+bin 316 of 851
+bin 317 of 851
+bin 318 of 851
+bin 319 of 851
+bin 320 of 851
+bin 321 of 851
+bin 322 of 851
+bin 323 of 851
+bin 324 of 851
+bin 325 of 851
+bin 326 of 851
+bin 327 of 851
+bin 328 of 851
+bin 329 of 851
+bin 330 of 851
+bin 331 of 851
+bin 332 of 851
+bin 333 of 851
+bin 334 of 851
+bin 335 of 851
+bin 336 of 851
+bin 337 of 851
+bin 338 of 851
+bin 339 of 851
+bin 340 of 851
+bin 341 of 851
+bin 342 of 851
+bin 343 of 851
+bin 344 of 851
+bin 345 of 851
+bin 346 of 851
+bin 347 of 851
+bin 348 of 851
+bin 349 of 851
+bin 350 of 851
+bin 351 of 851
+bin 352 of 851
+bin 353 of 851
+bin 354 of 851
+bin 355 of 851
+bin 356 of 851
+bin 357 of 851
+bin 358 of 851
+bin 359 of 851
+bin 360 of 851
+bin 361 of 851
+bin 362 of 851
+bin 363 of 851
+bin 364 of 851
+bin 365 of 851
+bin 366 of 851
+bin 367 of 851
+bin 368 of 851
+bin 369 of 851
+bin 370 of 851
+bin 371 of 851
+bin 372 of 851
+bin 373 of 851
+bin 374 of 851
+bin 375 of 851
+bin 376 of 851
+bin 377 of 851
+bin 378 of 851
+bin 379 of 851
+bin 380 of 851
+bin 381 of 851
+bin 382 of 851
+bin 383 of 851
+bin 384 of 851
+bin 385 of 851
+bin 386 of 851
+bin 387 of 851
+bin 388 of 851
+bin 389 of 851
+bin 390 of 851
+bin 391 of 851
+bin 392 of 851
+bin 393 of 851
+bin 394 of 851
+bin 395 of 851
+bin 396 of 851
+bin 397 of 851
+bin 398 of 851
+bin 399 of 851
+bin 400 of 851
+bin 401 of 851
+bin 402 of 851
+bin 403 of 851
+bin 404 of 851
+bin 405 of 851
+bin 406 of 851
+bin 407 of 851
+bin 408 of 851
+bin 409 of 851
+bin 410 of 851
+bin 411 of 851
+bin 412 of 851
+bin 413 of 851
+bin 414 of 851
+bin 415 of 851
+bin 416 of 851
+bin 417 of 851
+bin 418 of 851
+bin 419 of 851
+bin 420 of 851
+bin 421 of 851
+bin 422 of 851
+bin 423 of 851
+bin 424 of 851
+bin 425 of 851
+bin 426 of 851
+bin 427 of 851
+bin 428 of 851
+bin 429 of 851
+bin 430 of 851
+bin 431 of 851
+bin 432 of 851
+bin 433 of 851
+bin 434 of 851
+bin 435 of 851
+bin 436 of 851
+bin 437 of 851
+bin 438 of 851
+bin 439 of 851
+bin 440 of 851
+bin 441 of 851
+bin 442 of 851
+bin 443 of 851
+bin 444 of 851
+bin 445 of 851
+bin 446 of 851
+bin 447 of 851
+bin 448 of 851
+bin 449 of 851
+bin 450 of 851
+bin 451 of 851
+bin 452 of 851
+bin 453 of 851
+bin 454 of 851
+bin 455 of 851
+bin 456 of 851
+bin 457 of 851
+bin 458 of 851
+bin 459 of 851
+bin 460 of 851
+bin 461 of 851
+bin 462 of 851
+bin 463 of 851
+bin 464 of 851
+bin 465 of 851
+bin 466 of 851
+bin 467 of 851
+bin 468 of 851
+bin 469 of 851
+bin 470 of 851
+bin 471 of 851
+bin 472 of 851
+bin 473 of 851
+bin 474 of 851
+bin 475 of 851
+bin 476 of 851
+bin 477 of 851
+bin 478 of 851
+bin 479 of 851
+bin 480 of 851
+bin 481 of 851
+bin 482 of 851
+bin 483 of 851
+bin 484 of 851
+bin 485 of 851
+bin 486 of 851
+bin 487 of 851
+bin 488 of 851
+bin 489 of 851
+bin 490 of 851
+bin 491 of 851
+bin 492 of 851
+bin 493 of 851
+bin 494 of 851
+bin 495 of 851
+bin 496 of 851
+bin 497 of 851
+bin 498 of 851
+bin 499 of 851
+bin 500 of 851
+bin 501 of 851
+bin 502 of 851
+bin 503 of 851
+bin 504 of 851
+bin 505 of 851
+bin 506 of 851
+bin 507 of 851
+bin 508 of 851
+bin 509 of 851
+bin 510 of 851
+bin 511 of 851
+bin 512 of 851
+bin 513 of 851
+bin 514 of 851
+bin 515 of 851
+bin 516 of 851
+bin 517 of 851
+bin 518 of 851
+bin 519 of 851
+bin 520 of 851
+bin 521 of 851
+bin 522 of 851
+bin 523 of 851
+bin 524 of 851
+bin 525 of 851
+bin 526 of 851
+bin 527 of 851
+bin 528 of 851
+bin 529 of 851
+bin 530 of 851
+bin 531 of 851
+bin 532 of 851
+bin 533 of 851
+bin 534 of 851
+bin 535 of 851
+bin 536 of 851
+bin 537 of 851
+bin 538 of 851
+bin 539 of 851
+bin 540 of 851
+bin 541 of 851
+bin 542 of 851
+bin 543 of 851
+bin 544 of 851
+bin 545 of 851
+bin 546 of 851
+bin 547 of 851
+bin 548 of 851
+bin 549 of 851
+bin 550 of 851
+bin 551 of 851
+bin 552 of 851
+bin 553 of 851
+bin 554 of 851
+bin 555 of 851
+bin 556 of 851
+bin 557 of 851
+bin 558 of 851
+bin 559 of 851
+bin 560 of 851
+bin 561 of 851
+bin 562 of 851
+bin 563 of 851
+bin 564 of 851
+bin 565 of 851
+bin 566 of 851
+bin 567 of 851
+bin 568 of 851
+bin 569 of 851
+bin 570 of 851
+bin 571 of 851
+bin 572 of 851
+bin 573 of 851
+bin 574 of 851
+bin 575 of 851
+bin 576 of 851
+bin 577 of 851
+bin 578 of 851
+bin 579 of 851
+bin 580 of 851
+bin 581 of 851
+bin 582 of 851
+bin 583 of 851
+bin 584 of 851
+bin 585 of 851
+bin 586 of 851
+bin 587 of 851
+bin 588 of 851
+bin 589 of 851
+bin 590 of 851
+bin 591 of 851
+bin 592 of 851
+bin 593 of 851
+bin 594 of 851
+bin 595 of 851
+bin 596 of 851
+bin 597 of 851
+bin 598 of 851
+bin 599 of 851
+bin 600 of 851
+bin 601 of 851
+bin 602 of 851
+bin 603 of 851
+bin 604 of 851
+bin 605 of 851
+bin 606 of 851
+bin 607 of 851
+bin 608 of 851
+bin 609 of 851
+bin 610 of 851
+bin 611 of 851
+bin 612 of 851
+bin 613 of 851
+bin 614 of 851
+bin 615 of 851
+bin 616 of 851
+bin 617 of 851
+bin 618 of 851
+bin 619 of 851
+bin 620 of 851
+bin 621 of 851
+bin 622 of 851
+bin 623 of 851
+bin 624 of 851
+bin 625 of 851
+bin 626 of 851
+bin 627 of 851
+bin 628 of 851
+bin 629 of 851
+bin 630 of 851
+bin 631 of 851
+bin 632 of 851
+bin 633 of 851
+bin 634 of 851
+bin 635 of 851
+bin 636 of 851
+bin 637 of 851
+bin 638 of 851
+bin 639 of 851
+bin 640 of 851
+bin 641 of 851
+bin 642 of 851
+bin 643 of 851
+bin 644 of 851
+bin 645 of 851
+bin 646 of 851
+bin 647 of 851
+bin 648 of 851
+bin 649 of 851
+bin 650 of 851
+bin 651 of 851
+bin 652 of 851
+bin 653 of 851
+bin 654 of 851
+bin 655 of 851
+bin 656 of 851
+bin 657 of 851
+bin 658 of 851
+bin 659 of 851
+bin 660 of 851
+bin 661 of 851
+bin 662 of 851
+bin 663 of 851
+bin 664 of 851
+bin 665 of 851
+bin 666 of 851
+bin 667 of 851
+bin 668 of 851
+bin 669 of 851
+bin 670 of 851
+bin 671 of 851
+bin 672 of 851
+bin 673 of 851
+bin 674 of 851
+bin 675 of 851
+bin 676 of 851
+bin 677 of 851
+bin 678 of 851
+bin 679 of 851
+bin 680 of 851
+bin 681 of 851
+bin 682 of 851
+bin 683 of 851
+bin 684 of 851
+bin 685 of 851
+bin 686 of 851
+bin 687 of 851
+bin 688 of 851
+bin 689 of 851
+bin 690 of 851
+bin 691 of 851
+bin 692 of 851
+bin 693 of 851
+bin 694 of 851
+bin 695 of 851
+bin 696 of 851
+bin 697 of 851
+bin 698 of 851
+bin 699 of 851
+bin 700 of 851
+bin 701 of 851
+bin 702 of 851
+bin 703 of 851
+bin 704 of 851
+bin 705 of 851
+bin 706 of 851
+bin 707 of 851
+bin 708 of 851
+bin 709 of 851
+bin 710 of 851
+bin 711 of 851
+bin 712 of 851
+bin 713 of 851
+bin 714 of 851
+bin 715 of 851
+bin 716 of 851
+bin 717 of 851
+bin 718 of 851
+bin 719 of 851
+bin 720 of 851
+bin 721 of 851
+bin 722 of 851
+bin 723 of 851
+bin 724 of 851
+bin 725 of 851
+bin 726 of 851
+bin 727 of 851
+bin 728 of 851
+bin 729 of 851
+bin 730 of 851
+bin 731 of 851
+bin 732 of 851
+bin 733 of 851
+bin 734 of 851
+bin 735 of 851
+bin 736 of 851
+bin 737 of 851
+bin 738 of 851
+bin 739 of 851
+bin 740 of 851
+bin 741 of 851
+bin 742 of 851
+bin 743 of 851
+bin 744 of 851
+bin 745 of 851
+bin 746 of 851
+bin 747 of 851
+bin 748 of 851
+bin 749 of 851
+bin 750 of 851
+bin 751 of 851
+bin 752 of 851
+bin 753 of 851
+bin 754 of 851
+bin 755 of 851
+bin 756 of 851
+bin 757 of 851
+bin 758 of 851
+bin 759 of 851
+bin 760 of 851
+bin 761 of 851
+bin 762 of 851
+bin 763 of 851
+bin 764 of 851
+bin 765 of 851
+bin 766 of 851
+bin 767 of 851
+bin 768 of 851
+bin 769 of 851
+bin 770 of 851
+bin 771 of 851
+bin 772 of 851
+bin 773 of 851
+bin 774 of 851
+bin 775 of 851
+bin 776 of 851
+bin 777 of 851
+bin 778 of 851
+bin 779 of 851
+bin 780 of 851
+bin 781 of 851
+bin 782 of 851
+bin 783 of 851
+bin 784 of 851
+bin 785 of 851
+bin 786 of 851
+bin 787 of 851
+bin 788 of 851
+bin 789 of 851
+bin 790 of 851
+bin 791 of 851
+bin 792 of 851
+bin 793 of 851
+bin 794 of 851
+bin 795 of 851
+bin 796 of 851
+bin 797 of 851
+bin 798 of 851
+bin 799 of 851
+bin 800 of 851
+bin 801 of 851
+bin 802 of 851
+bin 803 of 851
+bin 804 of 851
+bin 805 of 851
+bin 806 of 851
+bin 807 of 851
+bin 808 of 851
+bin 809 of 851
+bin 810 of 851
+bin 811 of 851
+bin 812 of 851
+bin 813 of 851
+bin 814 of 851
+bin 815 of 851
+bin 816 of 851
+bin 817 of 851
+bin 818 of 851
+bin 819 of 851
+bin 820 of 851
+bin 821 of 851
+bin 822 of 851
+bin 823 of 851
+bin 824 of 851
+bin 825 of 851
+bin 826 of 851
+bin 827 of 851
+bin 828 of 851
+bin 829 of 851
+bin 830 of 851
+bin 831 of 851
+bin 832 of 851
+bin 833 of 851
+bin 834 of 851
+bin 835 of 851
+bin 836 of 851
+bin 837 of 851
+bin 838 of 851
+bin 839 of 851
+bin 840 of 851
+bin 841 of 851
+bin 842 of 851
+bin 843 of 851
+bin 844 of 851
+bin 845 of 851
+bin 846 of 851
+bin 847 of 851
+bin 848 of 851
+bin 849 of 851
+bin 850 of 851
+bin 851 of 851
+218
+[139] Found TH2D mee_vs_time_in_EBHR9
+[141] 	 Making median vs time graph...
+Making TGraphAsymmErrors for mee_vs_time_in_EBHR9 (median) with 200 resamplings, 100.000000 % width, and 95.000000 % confidence
+201
+bin 1 of 190
+bin 2 of 190
+bin 3 of 190
+bin 4 of 190
+bin 5 of 190
+bin 6 of 190
+bin 7 of 190
+bin 8 of 190
+bin 9 of 190
+bin 10 of 190
+bin 11 of 190
+bin 12 of 190
+bin 13 of 190
+bin 14 of 190
+bin 15 of 190
+bin 16 of 190
+bin 17 of 190
+bin 18 of 190
+bin 19 of 190
+bin 20 of 190
+bin 21 of 190
+bin 22 of 190
+bin 23 of 190
+bin 24 of 190
+bin 25 of 190
+bin 26 of 190
+bin 27 of 190
+bin 28 of 190
+bin 29 of 190
+bin 30 of 190
+bin 31 of 190
+bin 32 of 190
+bin 33 of 190
+bin 34 of 190
+bin 35 of 190
+bin 36 of 190
+bin 37 of 190
+bin 38 of 190
+bin 39 of 190
+bin 40 of 190
+bin 41 of 190
+bin 42 of 190
+bin 43 of 190
+bin 44 of 190
+bin 45 of 190
+bin 46 of 190
+bin 47 of 190
+bin 48 of 190
+bin 49 of 190
+Warning: Empty histogram median_mee_vs_time_in_EBHR949
+bin 50 of 190
+Warning: Empty histogram median_mee_vs_time_in_EBHR950
+bin 51 of 190
+Warning: Empty histogram median_mee_vs_time_in_EBHR951
+bin 52 of 190
+Warning: Empty histogram median_mee_vs_time_in_EBHR952
+bin 53 of 190
+bin 54 of 190
+bin 55 of 190
+bin 56 of 190
+bin 57 of 190
+bin 58 of 190
+bin 59 of 190
+bin 60 of 190
+bin 61 of 190
+bin 62 of 190
+bin 63 of 190
+bin 64 of 190
+bin 65 of 190
+bin 66 of 190
+bin 67 of 190
+bin 68 of 190
+bin 69 of 190
+bin 70 of 190
+bin 71 of 190
+bin 72 of 190
+bin 73 of 190
+bin 74 of 190
+bin 75 of 190
+bin 76 of 190
+bin 77 of 190
+bin 78 of 190
+bin 79 of 190
+bin 80 of 190
+bin 81 of 190
+bin 82 of 190
+bin 83 of 190
+bin 84 of 190
+bin 85 of 190
+bin 86 of 190
+bin 87 of 190
+bin 88 of 190
+bin 89 of 190
+bin 90 of 190
+bin 91 of 190
+bin 92 of 190
+bin 93 of 190
+bin 94 of 190
+bin 95 of 190
+bin 96 of 190
+bin 97 of 190
+bin 98 of 190
+bin 99 of 190
+bin 100 of 190
+bin 101 of 190
+bin 102 of 190
+bin 103 of 190
+bin 104 of 190
+bin 105 of 190
+bin 106 of 190
+bin 107 of 190
+bin 108 of 190
+bin 109 of 190
+bin 110 of 190
+bin 111 of 190
+bin 112 of 190
+bin 113 of 190
+bin 114 of 190
+bin 115 of 190
+bin 116 of 190
+bin 117 of 190
+bin 118 of 190
+bin 119 of 190
+bin 120 of 190
+bin 121 of 190
+bin 122 of 190
+bin 123 of 190
+bin 124 of 190
+bin 125 of 190
+bin 126 of 190
+bin 127 of 190
+bin 128 of 190
+bin 129 of 190
+bin 130 of 190
+bin 131 of 190
+bin 132 of 190
+bin 133 of 190
+bin 134 of 190
+bin 135 of 190
+bin 136 of 190
+bin 137 of 190
+bin 138 of 190
+bin 139 of 190
+bin 140 of 190
+bin 141 of 190
+bin 142 of 190
+bin 143 of 190
+bin 144 of 190
+bin 145 of 190
+bin 146 of 190
+bin 147 of 190
+bin 148 of 190
+bin 149 of 190
+bin 150 of 190
+bin 151 of 190
+bin 152 of 190
+bin 153 of 190
+bin 154 of 190
+bin 155 of 190
+bin 156 of 190
+bin 157 of 190
+bin 158 of 190
+bin 159 of 190
+bin 160 of 190
+bin 161 of 190
+bin 162 of 190
+bin 163 of 190
+bin 164 of 190
+bin 165 of 190
+bin 166 of 190
+bin 167 of 190
+bin 168 of 190
+bin 169 of 190
+bin 170 of 190
+bin 171 of 190
+bin 172 of 190
+bin 173 of 190
+bin 174 of 190
+bin 175 of 190
+bin 176 of 190
+bin 177 of 190
+bin 178 of 190
+bin 179 of 190
+bin 180 of 190
+bin 181 of 190
+bin 182 of 190
+bin 183 of 190
+bin 184 of 190
+bin 185 of 190
+bin 186 of 190
+bin 187 of 190
+bin 188 of 190
+bin 189 of 190
+bin 190 of 190
+218
+[149] 	 Making StdDev60% vs time graph...
+Making TGraphAsymmErrors for mee_vs_time_in_EBHR9 (stdev) with 200 resamplings, 60.000000 % width, and 95.000000 % confidence
+201
+bin 1 of 190
+bin 2 of 190
+bin 3 of 190
+bin 4 of 190
+bin 5 of 190
+bin 6 of 190
+bin 7 of 190
+bin 8 of 190
+bin 9 of 190
+bin 10 of 190
+bin 11 of 190
+bin 12 of 190
+bin 13 of 190
+bin 14 of 190
+bin 15 of 190
+bin 16 of 190
+bin 17 of 190
+bin 18 of 190
+bin 19 of 190
+bin 20 of 190
+bin 21 of 190
+bin 22 of 190
+bin 23 of 190
+bin 24 of 190
+bin 25 of 190
+bin 26 of 190
+bin 27 of 190
+bin 28 of 190
+bin 29 of 190
+bin 30 of 190
+bin 31 of 190
+bin 32 of 190
+bin 33 of 190
+bin 34 of 190
+bin 35 of 190
+bin 36 of 190
+bin 37 of 190
+bin 38 of 190
+bin 39 of 190
+bin 40 of 190
+bin 41 of 190
+bin 42 of 190
+bin 43 of 190
+bin 44 of 190
+bin 45 of 190
+bin 46 of 190
+bin 47 of 190
+bin 48 of 190
+bin 49 of 190
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EBHR949
+bin 50 of 190
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EBHR950
+bin 51 of 190
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EBHR951
+bin 52 of 190
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EBHR952
+bin 53 of 190
+bin 54 of 190
+bin 55 of 190
+bin 56 of 190
+bin 57 of 190
+bin 58 of 190
+bin 59 of 190
+bin 60 of 190
+bin 61 of 190
+bin 62 of 190
+bin 63 of 190
+bin 64 of 190
+bin 65 of 190
+bin 66 of 190
+bin 67 of 190
+bin 68 of 190
+bin 69 of 190
+bin 70 of 190
+bin 71 of 190
+bin 72 of 190
+bin 73 of 190
+bin 74 of 190
+bin 75 of 190
+bin 76 of 190
+bin 77 of 190
+bin 78 of 190
+bin 79 of 190
+bin 80 of 190
+bin 81 of 190
+bin 82 of 190
+bin 83 of 190
+bin 84 of 190
+bin 85 of 190
+bin 86 of 190
+bin 87 of 190
+bin 88 of 190
+bin 89 of 190
+bin 90 of 190
+bin 91 of 190
+bin 92 of 190
+bin 93 of 190
+bin 94 of 190
+bin 95 of 190
+bin 96 of 190
+bin 97 of 190
+bin 98 of 190
+bin 99 of 190
+bin 100 of 190
+bin 101 of 190
+bin 102 of 190
+bin 103 of 190
+bin 104 of 190
+bin 105 of 190
+bin 106 of 190
+bin 107 of 190
+bin 108 of 190
+bin 109 of 190
+bin 110 of 190
+bin 111 of 190
+bin 112 of 190
+bin 113 of 190
+bin 114 of 190
+bin 115 of 190
+bin 116 of 190
+bin 117 of 190
+bin 118 of 190
+bin 119 of 190
+bin 120 of 190
+bin 121 of 190
+bin 122 of 190
+bin 123 of 190
+bin 124 of 190
+bin 125 of 190
+bin 126 of 190
+bin 127 of 190
+bin 128 of 190
+bin 129 of 190
+bin 130 of 190
+bin 131 of 190
+bin 132 of 190
+bin 133 of 190
+bin 134 of 190
+bin 135 of 190
+bin 136 of 190
+bin 137 of 190
+bin 138 of 190
+bin 139 of 190
+bin 140 of 190
+bin 141 of 190
+bin 142 of 190
+bin 143 of 190
+bin 144 of 190
+bin 145 of 190
+bin 146 of 190
+bin 147 of 190
+bin 148 of 190
+bin 149 of 190
+bin 150 of 190
+bin 151 of 190
+bin 152 of 190
+bin 153 of 190
+bin 154 of 190
+bin 155 of 190
+bin 156 of 190
+bin 157 of 190
+bin 158 of 190
+bin 159 of 190
+bin 160 of 190
+bin 161 of 190
+bin 162 of 190
+bin 163 of 190
+bin 164 of 190
+bin 165 of 190
+bin 166 of 190
+bin 167 of 190
+bin 168 of 190
+bin 169 of 190
+bin 170 of 190
+bin 171 of 190
+bin 172 of 190
+bin 173 of 190
+bin 174 of 190
+bin 175 of 190
+bin 176 of 190
+bin 177 of 190
+bin 178 of 190
+bin 179 of 190
+bin 180 of 190
+bin 181 of 190
+bin 182 of 190
+bin 183 of 190
+bin 184 of 190
+bin 185 of 190
+bin 186 of 190
+bin 187 of 190
+bin 188 of 190
+bin 189 of 190
+bin 190 of 190
+218
+[139] Found TH2D mee_vs_time_in_EBLR9
+[141] 	 Making median vs time graph...
+Making TGraphAsymmErrors for mee_vs_time_in_EBLR9 (median) with 200 resamplings, 100.000000 % width, and 95.000000 % confidence
+201
+bin 1 of 249
+bin 2 of 249
+bin 3 of 249
+bin 4 of 249
+bin 5 of 249
+bin 6 of 249
+bin 7 of 249
+bin 8 of 249
+bin 9 of 249
+bin 10 of 249
+bin 11 of 249
+bin 12 of 249
+bin 13 of 249
+bin 14 of 249
+bin 15 of 249
+bin 16 of 249
+bin 17 of 249
+bin 18 of 249
+bin 19 of 249
+bin 20 of 249
+bin 21 of 249
+bin 22 of 249
+bin 23 of 249
+bin 24 of 249
+bin 25 of 249
+bin 26 of 249
+bin 27 of 249
+bin 28 of 249
+bin 29 of 249
+bin 30 of 249
+bin 31 of 249
+bin 32 of 249
+bin 33 of 249
+bin 34 of 249
+bin 35 of 249
+bin 36 of 249
+bin 37 of 249
+bin 38 of 249
+bin 39 of 249
+bin 40 of 249
+bin 41 of 249
+bin 42 of 249
+bin 43 of 249
+bin 44 of 249
+bin 45 of 249
+bin 46 of 249
+bin 47 of 249
+bin 48 of 249
+bin 49 of 249
+bin 50 of 249
+bin 51 of 249
+bin 52 of 249
+bin 53 of 249
+bin 54 of 249
+bin 55 of 249
+bin 56 of 249
+bin 57 of 249
+bin 58 of 249
+bin 59 of 249
+bin 60 of 249
+bin 61 of 249
+bin 62 of 249
+bin 63 of 249
+bin 64 of 249
+Warning: Empty histogram median_mee_vs_time_in_EBLR964
+bin 65 of 249
+Warning: Empty histogram median_mee_vs_time_in_EBLR965
+bin 66 of 249
+Warning: Empty histogram median_mee_vs_time_in_EBLR966
+bin 67 of 249
+Warning: Empty histogram median_mee_vs_time_in_EBLR967
+bin 68 of 249
+bin 69 of 249
+bin 70 of 249
+bin 71 of 249
+bin 72 of 249
+bin 73 of 249
+bin 74 of 249
+bin 75 of 249
+bin 76 of 249
+bin 77 of 249
+bin 78 of 249
+bin 79 of 249
+bin 80 of 249
+bin 81 of 249
+bin 82 of 249
+bin 83 of 249
+bin 84 of 249
+bin 85 of 249
+bin 86 of 249
+bin 87 of 249
+bin 88 of 249
+bin 89 of 249
+bin 90 of 249
+bin 91 of 249
+bin 92 of 249
+bin 93 of 249
+bin 94 of 249
+bin 95 of 249
+bin 96 of 249
+bin 97 of 249
+bin 98 of 249
+bin 99 of 249
+bin 100 of 249
+bin 101 of 249
+bin 102 of 249
+bin 103 of 249
+bin 104 of 249
+bin 105 of 249
+bin 106 of 249
+bin 107 of 249
+bin 108 of 249
+bin 109 of 249
+bin 110 of 249
+bin 111 of 249
+bin 112 of 249
+bin 113 of 249
+bin 114 of 249
+bin 115 of 249
+bin 116 of 249
+bin 117 of 249
+bin 118 of 249
+bin 119 of 249
+bin 120 of 249
+bin 121 of 249
+bin 122 of 249
+bin 123 of 249
+bin 124 of 249
+bin 125 of 249
+bin 126 of 249
+bin 127 of 249
+bin 128 of 249
+bin 129 of 249
+bin 130 of 249
+bin 131 of 249
+bin 132 of 249
+bin 133 of 249
+bin 134 of 249
+bin 135 of 249
+bin 136 of 249
+bin 137 of 249
+bin 138 of 249
+bin 139 of 249
+bin 140 of 249
+bin 141 of 249
+bin 142 of 249
+bin 143 of 249
+bin 144 of 249
+bin 145 of 249
+bin 146 of 249
+bin 147 of 249
+bin 148 of 249
+bin 149 of 249
+bin 150 of 249
+bin 151 of 249
+bin 152 of 249
+bin 153 of 249
+bin 154 of 249
+bin 155 of 249
+bin 156 of 249
+bin 157 of 249
+bin 158 of 249
+bin 159 of 249
+bin 160 of 249
+bin 161 of 249
+bin 162 of 249
+bin 163 of 249
+bin 164 of 249
+bin 165 of 249
+bin 166 of 249
+bin 167 of 249
+bin 168 of 249
+bin 169 of 249
+bin 170 of 249
+bin 171 of 249
+bin 172 of 249
+bin 173 of 249
+bin 174 of 249
+bin 175 of 249
+bin 176 of 249
+bin 177 of 249
+bin 178 of 249
+bin 179 of 249
+bin 180 of 249
+bin 181 of 249
+bin 182 of 249
+bin 183 of 249
+bin 184 of 249
+bin 185 of 249
+bin 186 of 249
+bin 187 of 249
+bin 188 of 249
+bin 189 of 249
+bin 190 of 249
+bin 191 of 249
+bin 192 of 249
+bin 193 of 249
+bin 194 of 249
+bin 195 of 249
+bin 196 of 249
+bin 197 of 249
+bin 198 of 249
+bin 199 of 249
+bin 200 of 249
+bin 201 of 249
+bin 202 of 249
+bin 203 of 249
+bin 204 of 249
+bin 205 of 249
+bin 206 of 249
+bin 207 of 249
+bin 208 of 249
+bin 209 of 249
+bin 210 of 249
+bin 211 of 249
+bin 212 of 249
+bin 213 of 249
+bin 214 of 249
+bin 215 of 249
+bin 216 of 249
+bin 217 of 249
+bin 218 of 249
+bin 219 of 249
+bin 220 of 249
+bin 221 of 249
+bin 222 of 249
+bin 223 of 249
+bin 224 of 249
+bin 225 of 249
+bin 226 of 249
+bin 227 of 249
+bin 228 of 249
+bin 229 of 249
+bin 230 of 249
+bin 231 of 249
+bin 232 of 249
+bin 233 of 249
+bin 234 of 249
+bin 235 of 249
+bin 236 of 249
+bin 237 of 249
+bin 238 of 249
+bin 239 of 249
+bin 240 of 249
+bin 241 of 249
+bin 242 of 249
+bin 243 of 249
+bin 244 of 249
+bin 245 of 249
+bin 246 of 249
+bin 247 of 249
+bin 248 of 249
+bin 249 of 249
+218
+[149] 	 Making StdDev60% vs time graph...
+Making TGraphAsymmErrors for mee_vs_time_in_EBLR9 (stdev) with 200 resamplings, 60.000000 % width, and 95.000000 % confidence
+201
+bin 1 of 249
+bin 2 of 249
+bin 3 of 249
+bin 4 of 249
+bin 5 of 249
+bin 6 of 249
+bin 7 of 249
+bin 8 of 249
+bin 9 of 249
+bin 10 of 249
+bin 11 of 249
+bin 12 of 249
+bin 13 of 249
+bin 14 of 249
+bin 15 of 249
+bin 16 of 249
+bin 17 of 249
+bin 18 of 249
+bin 19 of 249
+bin 20 of 249
+bin 21 of 249
+bin 22 of 249
+bin 23 of 249
+bin 24 of 249
+bin 25 of 249
+bin 26 of 249
+bin 27 of 249
+bin 28 of 249
+bin 29 of 249
+bin 30 of 249
+bin 31 of 249
+bin 32 of 249
+bin 33 of 249
+bin 34 of 249
+bin 35 of 249
+bin 36 of 249
+bin 37 of 249
+bin 38 of 249
+bin 39 of 249
+bin 40 of 249
+bin 41 of 249
+bin 42 of 249
+bin 43 of 249
+bin 44 of 249
+bin 45 of 249
+bin 46 of 249
+bin 47 of 249
+bin 48 of 249
+bin 49 of 249
+bin 50 of 249
+bin 51 of 249
+bin 52 of 249
+bin 53 of 249
+bin 54 of 249
+bin 55 of 249
+bin 56 of 249
+bin 57 of 249
+bin 58 of 249
+bin 59 of 249
+bin 60 of 249
+bin 61 of 249
+bin 62 of 249
+bin 63 of 249
+bin 64 of 249
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EBLR964
+bin 65 of 249
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EBLR965
+bin 66 of 249
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EBLR966
+bin 67 of 249
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EBLR967
+bin 68 of 249
+bin 69 of 249
+bin 70 of 249
+bin 71 of 249
+bin 72 of 249
+bin 73 of 249
+bin 74 of 249
+bin 75 of 249
+bin 76 of 249
+bin 77 of 249
+bin 78 of 249
+bin 79 of 249
+bin 80 of 249
+bin 81 of 249
+bin 82 of 249
+bin 83 of 249
+bin 84 of 249
+bin 85 of 249
+bin 86 of 249
+bin 87 of 249
+bin 88 of 249
+bin 89 of 249
+bin 90 of 249
+bin 91 of 249
+bin 92 of 249
+bin 93 of 249
+bin 94 of 249
+bin 95 of 249
+bin 96 of 249
+bin 97 of 249
+bin 98 of 249
+bin 99 of 249
+bin 100 of 249
+bin 101 of 249
+bin 102 of 249
+bin 103 of 249
+bin 104 of 249
+bin 105 of 249
+bin 106 of 249
+bin 107 of 249
+bin 108 of 249
+bin 109 of 249
+bin 110 of 249
+bin 111 of 249
+bin 112 of 249
+bin 113 of 249
+bin 114 of 249
+bin 115 of 249
+bin 116 of 249
+bin 117 of 249
+bin 118 of 249
+bin 119 of 249
+bin 120 of 249
+bin 121 of 249
+bin 122 of 249
+bin 123 of 249
+bin 124 of 249
+bin 125 of 249
+bin 126 of 249
+bin 127 of 249
+bin 128 of 249
+bin 129 of 249
+bin 130 of 249
+bin 131 of 249
+bin 132 of 249
+bin 133 of 249
+bin 134 of 249
+bin 135 of 249
+bin 136 of 249
+bin 137 of 249
+bin 138 of 249
+bin 139 of 249
+bin 140 of 249
+bin 141 of 249
+bin 142 of 249
+bin 143 of 249
+bin 144 of 249
+bin 145 of 249
+bin 146 of 249
+bin 147 of 249
+bin 148 of 249
+bin 149 of 249
+bin 150 of 249
+bin 151 of 249
+bin 152 of 249
+bin 153 of 249
+bin 154 of 249
+bin 155 of 249
+bin 156 of 249
+bin 157 of 249
+bin 158 of 249
+bin 159 of 249
+bin 160 of 249
+bin 161 of 249
+bin 162 of 249
+bin 163 of 249
+bin 164 of 249
+bin 165 of 249
+bin 166 of 249
+bin 167 of 249
+bin 168 of 249
+bin 169 of 249
+bin 170 of 249
+bin 171 of 249
+bin 172 of 249
+bin 173 of 249
+bin 174 of 249
+bin 175 of 249
+bin 176 of 249
+bin 177 of 249
+bin 178 of 249
+bin 179 of 249
+bin 180 of 249
+bin 181 of 249
+bin 182 of 249
+bin 183 of 249
+bin 184 of 249
+bin 185 of 249
+bin 186 of 249
+bin 187 of 249
+bin 188 of 249
+bin 189 of 249
+bin 190 of 249
+bin 191 of 249
+bin 192 of 249
+bin 193 of 249
+bin 194 of 249
+bin 195 of 249
+bin 196 of 249
+bin 197 of 249
+bin 198 of 249
+bin 199 of 249
+bin 200 of 249
+bin 201 of 249
+bin 202 of 249
+bin 203 of 249
+bin 204 of 249
+bin 205 of 249
+bin 206 of 249
+bin 207 of 249
+bin 208 of 249
+bin 209 of 249
+bin 210 of 249
+bin 211 of 249
+bin 212 of 249
+bin 213 of 249
+bin 214 of 249
+bin 215 of 249
+bin 216 of 249
+bin 217 of 249
+bin 218 of 249
+bin 219 of 249
+bin 220 of 249
+bin 221 of 249
+bin 222 of 249
+bin 223 of 249
+bin 224 of 249
+bin 225 of 249
+bin 226 of 249
+bin 227 of 249
+bin 228 of 249
+bin 229 of 249
+bin 230 of 249
+bin 231 of 249
+bin 232 of 249
+bin 233 of 249
+bin 234 of 249
+bin 235 of 249
+bin 236 of 249
+bin 237 of 249
+bin 238 of 249
+bin 239 of 249
+bin 240 of 249
+bin 241 of 249
+bin 242 of 249
+bin 243 of 249
+bin 244 of 249
+bin 245 of 249
+bin 246 of 249
+bin 247 of 249
+bin 248 of 249
+bin 249 of 249
+218
+[139] Found TH2D mee_vs_time_in_EE
+[141] 	 Making median vs time graph...
+Making TGraphAsymmErrors for mee_vs_time_in_EE (median) with 200 resamplings, 100.000000 % width, and 95.000000 % confidence
+201
+bin 1 of 162
+bin 2 of 162
+bin 3 of 162
+bin 4 of 162
+bin 5 of 162
+bin 6 of 162
+bin 7 of 162
+bin 8 of 162
+bin 9 of 162
+bin 10 of 162
+bin 11 of 162
+bin 12 of 162
+bin 13 of 162
+bin 14 of 162
+bin 15 of 162
+bin 16 of 162
+bin 17 of 162
+bin 18 of 162
+bin 19 of 162
+bin 20 of 162
+bin 21 of 162
+bin 22 of 162
+bin 23 of 162
+bin 24 of 162
+bin 25 of 162
+bin 26 of 162
+bin 27 of 162
+bin 28 of 162
+bin 29 of 162
+bin 30 of 162
+bin 31 of 162
+bin 32 of 162
+bin 33 of 162
+bin 34 of 162
+bin 35 of 162
+bin 36 of 162
+bin 37 of 162
+bin 38 of 162
+bin 39 of 162
+bin 40 of 162
+bin 41 of 162
+Warning: Empty histogram median_mee_vs_time_in_EE41
+bin 42 of 162
+Warning: Empty histogram median_mee_vs_time_in_EE42
+bin 43 of 162
+Warning: Empty histogram median_mee_vs_time_in_EE43
+bin 44 of 162
+Warning: Empty histogram median_mee_vs_time_in_EE44
+bin 45 of 162
+bin 46 of 162
+bin 47 of 162
+bin 48 of 162
+bin 49 of 162
+bin 50 of 162
+bin 51 of 162
+bin 52 of 162
+bin 53 of 162
+bin 54 of 162
+bin 55 of 162
+bin 56 of 162
+bin 57 of 162
+bin 58 of 162
+bin 59 of 162
+bin 60 of 162
+bin 61 of 162
+bin 62 of 162
+bin 63 of 162
+bin 64 of 162
+bin 65 of 162
+bin 66 of 162
+bin 67 of 162
+bin 68 of 162
+bin 69 of 162
+bin 70 of 162
+bin 71 of 162
+bin 72 of 162
+bin 73 of 162
+bin 74 of 162
+bin 75 of 162
+bin 76 of 162
+bin 77 of 162
+bin 78 of 162
+bin 79 of 162
+bin 80 of 162
+bin 81 of 162
+bin 82 of 162
+bin 83 of 162
+bin 84 of 162
+bin 85 of 162
+bin 86 of 162
+bin 87 of 162
+bin 88 of 162
+bin 89 of 162
+bin 90 of 162
+bin 91 of 162
+bin 92 of 162
+bin 93 of 162
+bin 94 of 162
+bin 95 of 162
+bin 96 of 162
+bin 97 of 162
+bin 98 of 162
+bin 99 of 162
+bin 100 of 162
+bin 101 of 162
+bin 102 of 162
+bin 103 of 162
+bin 104 of 162
+bin 105 of 162
+bin 106 of 162
+bin 107 of 162
+bin 108 of 162
+bin 109 of 162
+bin 110 of 162
+bin 111 of 162
+bin 112 of 162
+bin 113 of 162
+bin 114 of 162
+bin 115 of 162
+bin 116 of 162
+bin 117 of 162
+bin 118 of 162
+bin 119 of 162
+bin 120 of 162
+bin 121 of 162
+bin 122 of 162
+bin 123 of 162
+bin 124 of 162
+bin 125 of 162
+bin 126 of 162
+bin 127 of 162
+bin 128 of 162
+bin 129 of 162
+bin 130 of 162
+bin 131 of 162
+bin 132 of 162
+bin 133 of 162
+bin 134 of 162
+bin 135 of 162
+bin 136 of 162
+bin 137 of 162
+bin 138 of 162
+bin 139 of 162
+bin 140 of 162
+bin 141 of 162
+bin 142 of 162
+bin 143 of 162
+bin 144 of 162
+bin 145 of 162
+bin 146 of 162
+bin 147 of 162
+bin 148 of 162
+bin 149 of 162
+bin 150 of 162
+bin 151 of 162
+bin 152 of 162
+bin 153 of 162
+bin 154 of 162
+bin 155 of 162
+bin 156 of 162
+bin 157 of 162
+bin 158 of 162
+bin 159 of 162
+bin 160 of 162
+bin 161 of 162
+bin 162 of 162
+218
+[149] 	 Making StdDev60% vs time graph...
+Making TGraphAsymmErrors for mee_vs_time_in_EE (stdev) with 200 resamplings, 60.000000 % width, and 95.000000 % confidence
+201
+bin 1 of 162
+bin 2 of 162
+bin 3 of 162
+bin 4 of 162
+bin 5 of 162
+bin 6 of 162
+bin 7 of 162
+bin 8 of 162
+bin 9 of 162
+bin 10 of 162
+bin 11 of 162
+bin 12 of 162
+bin 13 of 162
+bin 14 of 162
+bin 15 of 162
+bin 16 of 162
+bin 17 of 162
+bin 18 of 162
+bin 19 of 162
+bin 20 of 162
+bin 21 of 162
+bin 22 of 162
+bin 23 of 162
+bin 24 of 162
+bin 25 of 162
+bin 26 of 162
+bin 27 of 162
+bin 28 of 162
+bin 29 of 162
+bin 30 of 162
+bin 31 of 162
+bin 32 of 162
+bin 33 of 162
+bin 34 of 162
+bin 35 of 162
+bin 36 of 162
+bin 37 of 162
+bin 38 of 162
+bin 39 of 162
+bin 40 of 162
+bin 41 of 162
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EE41
+bin 42 of 162
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EE42
+bin 43 of 162
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EE43
+bin 44 of 162
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EE44
+bin 45 of 162
+bin 46 of 162
+bin 47 of 162
+bin 48 of 162
+bin 49 of 162
+bin 50 of 162
+bin 51 of 162
+bin 52 of 162
+bin 53 of 162
+bin 54 of 162
+bin 55 of 162
+bin 56 of 162
+bin 57 of 162
+bin 58 of 162
+bin 59 of 162
+bin 60 of 162
+bin 61 of 162
+bin 62 of 162
+bin 63 of 162
+bin 64 of 162
+bin 65 of 162
+bin 66 of 162
+bin 67 of 162
+bin 68 of 162
+bin 69 of 162
+bin 70 of 162
+bin 71 of 162
+bin 72 of 162
+bin 73 of 162
+bin 74 of 162
+bin 75 of 162
+bin 76 of 162
+bin 77 of 162
+bin 78 of 162
+bin 79 of 162
+bin 80 of 162
+bin 81 of 162
+bin 82 of 162
+bin 83 of 162
+bin 84 of 162
+bin 85 of 162
+bin 86 of 162
+bin 87 of 162
+bin 88 of 162
+bin 89 of 162
+bin 90 of 162
+bin 91 of 162
+bin 92 of 162
+bin 93 of 162
+bin 94 of 162
+bin 95 of 162
+bin 96 of 162
+bin 97 of 162
+bin 98 of 162
+bin 99 of 162
+bin 100 of 162
+bin 101 of 162
+bin 102 of 162
+bin 103 of 162
+bin 104 of 162
+bin 105 of 162
+bin 106 of 162
+bin 107 of 162
+bin 108 of 162
+bin 109 of 162
+bin 110 of 162
+bin 111 of 162
+bin 112 of 162
+bin 113 of 162
+bin 114 of 162
+bin 115 of 162
+bin 116 of 162
+bin 117 of 162
+bin 118 of 162
+bin 119 of 162
+bin 120 of 162
+bin 121 of 162
+bin 122 of 162
+bin 123 of 162
+bin 124 of 162
+bin 125 of 162
+bin 126 of 162
+bin 127 of 162
+bin 128 of 162
+bin 129 of 162
+bin 130 of 162
+bin 131 of 162
+bin 132 of 162
+bin 133 of 162
+bin 134 of 162
+bin 135 of 162
+bin 136 of 162
+bin 137 of 162
+bin 138 of 162
+bin 139 of 162
+bin 140 of 162
+bin 141 of 162
+bin 142 of 162
+bin 143 of 162
+bin 144 of 162
+bin 145 of 162
+bin 146 of 162
+bin 147 of 162
+bin 148 of 162
+bin 149 of 162
+bin 150 of 162
+bin 151 of 162
+bin 152 of 162
+bin 153 of 162
+bin 154 of 162
+bin 155 of 162
+bin 156 of 162
+bin 157 of 162
+bin 158 of 162
+bin 159 of 162
+bin 160 of 162
+bin 161 of 162
+bin 162 of 162
+218
+[139] Found TH2D mee_vs_time_in_EEHR9
+[141] 	 Making median vs time graph...
+Making TGraphAsymmErrors for mee_vs_time_in_EEHR9 (median) with 200 resamplings, 100.000000 % width, and 95.000000 % confidence
+201
+bin 1 of 67
+bin 2 of 67
+bin 3 of 67
+bin 4 of 67
+bin 5 of 67
+bin 6 of 67
+bin 7 of 67
+bin 8 of 67
+bin 9 of 67
+bin 10 of 67
+bin 11 of 67
+bin 12 of 67
+bin 13 of 67
+bin 14 of 67
+bin 15 of 67
+bin 16 of 67
+bin 17 of 67
+bin 18 of 67
+Warning: Empty histogram median_mee_vs_time_in_EEHR918
+bin 19 of 67
+Warning: Empty histogram median_mee_vs_time_in_EEHR919
+bin 20 of 67
+Warning: Empty histogram median_mee_vs_time_in_EEHR920
+bin 21 of 67
+Warning: Empty histogram median_mee_vs_time_in_EEHR921
+bin 22 of 67
+bin 23 of 67
+bin 24 of 67
+bin 25 of 67
+bin 26 of 67
+bin 27 of 67
+bin 28 of 67
+bin 29 of 67
+bin 30 of 67
+bin 31 of 67
+bin 32 of 67
+bin 33 of 67
+bin 34 of 67
+bin 35 of 67
+bin 36 of 67
+bin 37 of 67
+bin 38 of 67
+bin 39 of 67
+bin 40 of 67
+bin 41 of 67
+bin 42 of 67
+bin 43 of 67
+bin 44 of 67
+bin 45 of 67
+bin 46 of 67
+bin 47 of 67
+bin 48 of 67
+bin 49 of 67
+bin 50 of 67
+bin 51 of 67
+bin 52 of 67
+bin 53 of 67
+bin 54 of 67
+bin 55 of 67
+bin 56 of 67
+bin 57 of 67
+bin 58 of 67
+bin 59 of 67
+bin 60 of 67
+bin 61 of 67
+bin 62 of 67
+bin 63 of 67
+bin 64 of 67
+bin 65 of 67
+bin 66 of 67
+bin 67 of 67
+218
+[149] 	 Making StdDev60% vs time graph...
+Making TGraphAsymmErrors for mee_vs_time_in_EEHR9 (stdev) with 200 resamplings, 60.000000 % width, and 95.000000 % confidence
+201
+bin 1 of 67
+bin 2 of 67
+bin 3 of 67
+bin 4 of 67
+bin 5 of 67
+bin 6 of 67
+bin 7 of 67
+bin 8 of 67
+bin 9 of 67
+bin 10 of 67
+bin 11 of 67
+bin 12 of 67
+bin 13 of 67
+bin 14 of 67
+bin 15 of 67
+bin 16 of 67
+bin 17 of 67
+bin 18 of 67
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EEHR918
+bin 19 of 67
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EEHR919
+bin 20 of 67
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EEHR920
+bin 21 of 67
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EEHR921
+bin 22 of 67
+bin 23 of 67
+bin 24 of 67
+bin 25 of 67
+bin 26 of 67
+bin 27 of 67
+bin 28 of 67
+bin 29 of 67
+bin 30 of 67
+bin 31 of 67
+bin 32 of 67
+bin 33 of 67
+bin 34 of 67
+bin 35 of 67
+bin 36 of 67
+bin 37 of 67
+bin 38 of 67
+bin 39 of 67
+bin 40 of 67
+bin 41 of 67
+bin 42 of 67
+bin 43 of 67
+bin 44 of 67
+bin 45 of 67
+bin 46 of 67
+bin 47 of 67
+bin 48 of 67
+bin 49 of 67
+bin 50 of 67
+bin 51 of 67
+bin 52 of 67
+bin 53 of 67
+bin 54 of 67
+bin 55 of 67
+bin 56 of 67
+bin 57 of 67
+bin 58 of 67
+bin 59 of 67
+bin 60 of 67
+bin 61 of 67
+bin 62 of 67
+bin 63 of 67
+bin 64 of 67
+bin 65 of 67
+bin 66 of 67
+bin 67 of 67
+218
+[139] Found TH2D mee_vs_time_in_EELR9
+[141] 	 Making median vs time graph...
+Making TGraphAsymmErrors for mee_vs_time_in_EELR9 (median) with 200 resamplings, 100.000000 % width, and 95.000000 % confidence
+201
+bin 1 of 31
+bin 2 of 31
+bin 3 of 31
+bin 4 of 31
+bin 5 of 31
+bin 6 of 31
+bin 7 of 31
+bin 8 of 31
+bin 9 of 31
+bin 10 of 31
+Warning: Empty histogram median_mee_vs_time_in_EELR910
+bin 11 of 31
+Warning: Empty histogram median_mee_vs_time_in_EELR911
+bin 12 of 31
+Warning: Empty histogram median_mee_vs_time_in_EELR912
+bin 13 of 31
+Warning: Empty histogram median_mee_vs_time_in_EELR913
+bin 14 of 31
+bin 15 of 31
+bin 16 of 31
+bin 17 of 31
+bin 18 of 31
+bin 19 of 31
+bin 20 of 31
+bin 21 of 31
+bin 22 of 31
+bin 23 of 31
+bin 24 of 31
+bin 25 of 31
+bin 26 of 31
+bin 27 of 31
+bin 28 of 31
+bin 29 of 31
+bin 30 of 31
+bin 31 of 31
+218
+[149] 	 Making StdDev60% vs time graph...
+Making TGraphAsymmErrors for mee_vs_time_in_EELR9 (stdev) with 200 resamplings, 60.000000 % width, and 95.000000 % confidence
+201
+bin 1 of 31
+bin 2 of 31
+bin 3 of 31
+bin 4 of 31
+bin 5 of 31
+bin 6 of 31
+bin 7 of 31
+bin 8 of 31
+bin 9 of 31
+bin 10 of 31
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EELR910
+bin 11 of 31
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EELR911
+bin 12 of 31
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EELR912
+bin 13 of 31
+Warning: Empty histogram min60_stdev_mee_vs_time_in_EELR913
+bin 14 of 31
+bin 15 of 31
+bin 16 of 31
+bin 17 of 31
+bin 18 of 31
+bin 19 of 31
+bin 20 of 31
+bin 21 of 31
+bin 22 of 31
+bin 23 of 31
+bin 24 of 31
+bin 25 of 31
+bin 26 of 31
+bin 27 of 31
+bin 28 of 31
+bin 29 of 31
+bin 30 of 31
+bin 31 of 31
+218
+[163] 	 Graphs written to file /eos/user/z/zhjie/quickECALMonitor/outputs/2022_scale_v2/2022_scale_v2_all.root
+(int) 1

@@ -1,0 +1,3 @@
+/eos/cms/store/group/dpg_ecal/alca_ecalcalib/ecalelf/ntuples/wangchu/2023IC/13.6TeV/133X_dataRun3_offline/EGamma1_Run2023D-EcalUncalZElectron-PromptReco-v2/merged/eleIDTree.root
+/eos/cms/store/group/dpg_ecal/alca_ecalcalib/ecalelf/ntuples/wangchu/2023IC/13.6TeV/133X_dataRun3_offline/EGamma1_Run2023D-EcalUncalZElectron-PromptReco-v2/merged/eleIDTree1.root
+/eos/cms/store/group/dpg_ecal/alca_ecalcalib/ecalelf/ntuples/wangchu/2023IC/13.6TeV/133X_dataRun3_offline/EGamma1_Run2023D-EcalUncalZElectron-PromptReco-v2/merged/ntuple.root

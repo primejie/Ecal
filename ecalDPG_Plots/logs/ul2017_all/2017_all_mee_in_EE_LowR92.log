@@ -1,0 +1,106 @@
+
+Processing plotDataHistsDPG.C("/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/options/ul2017/histDataOptions_mee_in_EE_LowR92.txt")...
+		Options parsed from file /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/options/ul2017/histDataOptions_mee_in_EE_LowR92.txt... 
+		writeDir	=	/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/plots/mee/2017/ul2017_eopPNEB_eflowEB_normalized_all/
+		cmsYear	=	2017
+		histName	=	mee_in_EE_LowR92
+		histYtitle	=	a.u.
+		fitNsigmaR	=	1.
+		fitNsigmaL	=	0.2
+		np	=	1000.
+		sc	=	10.
+		integralScale	=	1.
+		fitXmin	=	87.
+		fitXmax	=	94.
+		scaleSign	=	1.
+		FFTn	=	50000
+		data0	=	/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2017_all.root
+		data0Legend	=	UL2017
+		data0Color	=	#990000
+		data0Marker	=	21
+		data1	=	/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2017_eopPNEB_eflowEB_normalized_all.root
+		data1Legend	=	UL2017 2fbNorm
+		data1Color	=	#238b45
+		data1Marker	=	20
+		errorFillStyle	=	3005
+		scale	=	100.
+		legendX1	=	0.11
+		legendX2	=	0.4
+		legendY1	=	0.8
+		legendY2	=	0.97
+		legendNcols	=	1
+		legendTextSize	=	0.04
+		categoryTextSize	=	0.045
+		categoryX	=	0.6
+		categoryY	=	0.95
+		lineWidth	=	2.
+		markerSize	=	2.5
+		statPrecision	=	1
+		xMin	=	78.
+		xMax	=	104.
+		yMin	=	0.0001
+		yMax	=	9.1
+		canvasW	=	1800.
+		canvasH	=	1600.
+		pad2x1	=	0.
+		pad2y1	=	0.
+		pad2x2	=	1.
+		pad2y2	=	0.945
+		pad2axislabelsize	=	0.05
+		pad2axisTitleSize	=	0.06
+		pad2xtitleoffset	=	0.8
+		pad2ytitleoffset	=	0.5
+		pad2yMaxDigits	=	3
+		pad2marginL	=	0.09
+		pad2marginR	=	0.005
+		pad2marginB	=	0.14
+		pad2marginT	=	0.01
+		nDivsPad2X	=	510
+		nDivsPad2Y	=	510
+		titleSize	=	0.05
+		infoYearX	=	0.09
+		infoRunX	=	0.838
+		yearY	=	0.988
+		runY	=	0.992
+	Options parsed!
+[772] Created directory: /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/plots/mee/2017/ul2017_eopPNEB_eflowEB_normalized_all/
+Plotting mee_in_EE_LowR92
+Modify preliminary histname from mee_in_EE_LowR92 to mee_in_EE_LowR9
+		Loading histogram mee_in_EE_LowR9 from file /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2017_all.root
+			Success!
+/////////////////////////////////////////////Floating Z width////////////////////////////////////////////////////////
+/////////////////////////////////////////////Approximated width////////////////////////////////////////////////////////
+fV 8.5
+fG is 7.07135
+fabrice approx : 3.36362 %
+/////////////////////////////////////////////Fixed Z width////////////////////////////////////////////////////////
+ FCN=0.00405343 FROM MINOS     STATUS=PROBLEMS      420 CALLS        2033 TOTAL
+                     EDM=1.86719e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  BW mean      8.98674e+01   1.73909e+00  -2.76044e-03   3.16822e-05
+   2  Gauss Width   2.98443e+00   1.95364e+00   4.70052e-03   1.67456e-06
+   3  Integral     4.75968e+01   2.06555e+01   2.06555e+01   5.61104e-05
+                               ERR DEF= 0.5
+Preliminary 2017 mee_in_EE_LowR92 mean is 89.8674
+Preliminary 2017 mee_in_EE_LowR92 sigma60 is 2.98443
+
+		Loading histogram mee_in_EE_LowR92 from file /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2017_eopPNEB_eflowEB_normalized_all.root
+			Success!
+/////////////////////////////////////////////Floating Z width////////////////////////////////////////////////////////
+/////////////////////////////////////////////Approximated width////////////////////////////////////////////////////////
+fV 9
+fG is 7.5776
+fabrice approx : 3.61141 %
+/////////////////////////////////////////////Fixed Z width////////////////////////////////////////////////////////
+ FCN=0.00282671 FROM MINOS     STATUS=PROBLEMS      376 CALLS        2125 TOTAL
+                     EDM=4.01951e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  BW mean      8.95216e+01   2.47434e+00  -4.97628e-02  -9.53753e-04
+   2  Gauss Width   3.28011e+00   2.52681e+00  -9.99305e-03  -1.64587e-03
+   3  Integral     4.76825e+01   2.73324e+01   2.73324e+01  -9.98080e-04
+                               ERR DEF= 0.5
+Ultra Legacy 2017 mee_in_EE_LowR92 mean is 89.5216
+Ultra Legacy 2017 mee_in_EE_LowR92 sigma60 is 3.28011
+

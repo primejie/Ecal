@@ -1,0 +1,129 @@
+
+Processing plotDataHistsDPG_3years.C("/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/options/ul3years/histDataOptions_mee_in_EB_HighR92.txt")...
+		Options parsed from file /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/options/ul3years/histDataOptions_mee_in_EB_HighR92.txt... 
+		writeDir	=	/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/plots/mee/ul3years_all/
+		cmsYear	=	3years
+		histName	=	mee_in_EB_HighR92
+		histYtitle	=	a.u.
+		fitNsigmaR	=	1.
+		fitNsigmaL	=	0.2
+		np	=	1000.
+		sc	=	10.
+		integralScale	=	1.
+		fitXmin	=	87.
+		fitXmax	=	94.
+		scaleSign	=	1.
+		FFTn	=	50000
+		data0	=	/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2016_all.root
+		data0Legend	=	2016
+		data0Color	=	#990000
+		data0Marker	=	20
+		data1	=	/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2017_all.root
+		data1Legend	=	2017
+		data1Color	=	#238b45
+		data1Marker	=	21
+		data2	=	/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2018_all.root
+		data2Legend	=	2018
+		data2Color	=	#023858
+		data2Marker	=	22
+		errorFillStyle	=	3005
+		scale	=	100.
+		legendX1	=	0.11
+		legendX2	=	0.4
+		legendY1	=	0.8
+		legendY2	=	0.97
+		legendNcols	=	1
+		legendTextSize	=	0.04
+		categoryTextSize	=	0.045
+		categoryX	=	0.6
+		categoryY	=	0.95
+		lineWidth	=	2.
+		markerSize	=	2.5
+		statPrecision	=	1
+		xMin	=	78.
+		xMax	=	104.
+		yMin	=	0.0001
+		yMax	=	9.1
+		canvasW	=	1800.
+		canvasH	=	1600.
+		pad2x1	=	0.
+		pad2y1	=	0.
+		pad2x2	=	1.
+		pad2y2	=	0.945
+		pad2axislabelsize	=	0.05
+		pad2axisTitleSize	=	0.06
+		pad2xtitleoffset	=	0.8
+		pad2ytitleoffset	=	0.5
+		pad2yMaxDigits	=	3
+		pad2marginL	=	0.09
+		pad2marginR	=	0.005
+		pad2marginB	=	0.14
+		pad2marginT	=	0.01
+		nDivsPad2X	=	510
+		nDivsPad2Y	=	510
+		titleSize	=	0.05
+		infoYearX	=	0.09
+		infoRunX	=	0.72
+		yearY	=	0.988
+		runY	=	0.986
+	Options parsed!
+[772] Created directory: /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/plots/mee/ul3years_all/
+Plotting mee_in_EB_HighR92
+Modify preliminary histname from mee_in_EB_HighR92 to mee_in_EB_HighR9
+		Loading histogram mee_in_EB_HighR9 from file /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2016_all.root
+			Success!
+/////////////////////////////////////////////Floating Z width////////////////////////////////////////////////////////
+/////////////////////////////////////////////Approximated width////////////////////////////////////////////////////////
+fV 4
+fG is 2.39986
+fabrice approx : 1.13117 %
+/////////////////////////////////////////////Fixed Z width////////////////////////////////////////////////////////
+ FCN=0.00549693 FROM MINOS     STATUS=SUCCESSFUL     97 CALLS         450 TOTAL
+                     EDM=1.67472e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  BW mean      9.07764e+01   4.28440e-01   1.55505e-03   8.10138e-05
+   2  Gauss Width   1.11890e+00   5.65780e-01  -2.63320e-03  -3.33649e-05
+   3  Integral     4.66413e+01   7.64298e+00   7.64298e+00  -3.02750e-05
+                               ERR DEF= 0.5
+Preliminary 3years mee_in_EB_HighR92 mean is 90.7764
+Preliminary 3years mee_in_EB_HighR92 sigma60 is 1.1189
+
+		Loading histogram mee_in_EB_HighR92 from file /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2017_all.root
+			Success!
+/////////////////////////////////////////////Floating Z width////////////////////////////////////////////////////////
+/////////////////////////////////////////////Approximated width////////////////////////////////////////////////////////
+fV 4
+fG is 2.39986
+fabrice approx : 1.13125 %
+/////////////////////////////////////////////Fixed Z width////////////////////////////////////////////////////////
+ FCN=0.0048198 FROM MINOS     STATUS=SUCCESSFUL     91 CALLS         442 TOTAL
+                     EDM=2.65341e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  BW mean      9.07913e+01   4.24413e-01   1.46351e-03   7.32771e-05
+   2  Gauss Width   1.11630e+00   5.62391e-01  -2.48731e-03  -3.03279e-05
+   3  Integral     4.64307e+01   7.55942e+00   7.55942e+00  -2.86426e-05
+                               ERR DEF= 0.5
+Ultra Legacy 3years mee_in_EB_HighR92 mean is 90.7913
+Ultra Legacy 3years mee_in_EB_HighR92 sigma60 is 1.1163
+
+		Loading histogram mee_in_EB_HighR92 from file /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2018_all.root
+			Success!
+/////////////////////////////////////////////Floating Z width////////////////////////////////////////////////////////
+/////////////////////////////////////////////Approximated width////////////////////////////////////////////////////////
+fV 4
+fG is 2.39986
+fabrice approx : 1.13316 %
+/////////////////////////////////////////////Fixed Z width////////////////////////////////////////////////////////
+ FCN=0.00554666 FROM MINOS     STATUS=SUCCESSFUL     97 CALLS         449 TOTAL
+                     EDM=9.3061e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  BW mean      9.07860e+01   4.36711e-01   1.64730e-03   8.98967e-05
+   2  Gauss Width   1.13963e+00   5.72341e-01  -2.77942e-03  -3.47055e-05
+   3  Integral     4.62512e+01   7.65992e+00   7.65992e+00  -3.68767e-05
+                               ERR DEF= 0.5
+Ultra Legacy 3years mee_in_EB_HighR92 mean is 90.786
+Ultra Legacy 3years mee_in_EB_HighR92 sigma60 is 1.13963
+

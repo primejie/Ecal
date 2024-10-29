@@ -1,0 +1,105 @@
+
+Processing plotDataHistsDPG.C("/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/options/ul2017/histDataOptions_mee_in_EB.txt")...
+		Options parsed from file /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/options/ul2017/histDataOptions_mee_in_EB.txt... 
+		writeDir	=	/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/plots/mee/2017/ul2017_eopPNEB_eflowEB_normalized_all/
+		cmsYear	=	2017
+		histName	=	mee_in_EB
+		histYtitle	=	a.u.
+		fitNsigmaR	=	1.
+		fitNsigmaL	=	0.2
+		np	=	1000.
+		sc	=	10.
+		integralScale	=	1.
+		fitXmin	=	87.
+		fitXmax	=	94.
+		scaleSign	=	1.
+		FFTn	=	50000
+		data0	=	/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2017_all.root
+		data0Legend	=	UL2017
+		data0Color	=	#990000
+		data0Marker	=	21
+		data1	=	/afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2017_eopPNEB_eflowEB_normalized_all.root
+		data1Legend	=	UL2017 2fbNorm
+		data1Color	=	#238b45
+		data1Marker	=	20
+		errorFillStyle	=	3005
+		scale	=	100.
+		legendX1	=	0.11
+		legendX2	=	0.4
+		legendY1	=	0.8
+		legendY2	=	0.97
+		legendNcols	=	1
+		legendTextSize	=	0.04
+		categoryTextSize	=	0.045
+		categoryX	=	0.6
+		categoryY	=	0.95
+		lineWidth	=	2.
+		markerSize	=	2.5
+		statPrecision	=	1
+		xMin	=	78.
+		xMax	=	104.
+		yMin	=	0.0001
+		yMax	=	9.1
+		canvasW	=	1800.
+		canvasH	=	1600.
+		pad2x1	=	0.
+		pad2y1	=	0.
+		pad2x2	=	1.
+		pad2y2	=	0.945
+		pad2axislabelsize	=	0.05
+		pad2axisTitleSize	=	0.06
+		pad2xtitleoffset	=	0.8
+		pad2ytitleoffset	=	0.5
+		pad2yMaxDigits	=	3
+		pad2marginL	=	0.09
+		pad2marginR	=	0.005
+		pad2marginB	=	0.14
+		pad2marginT	=	0.01
+		nDivsPad2X	=	510
+		nDivsPad2Y	=	510
+		titleSize	=	0.05
+		infoYearX	=	0.09
+		infoRunX	=	0.838
+		yearY	=	0.988
+		runY	=	0.992
+	Options parsed!
+[772] Created directory: /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/plots/mee/2017/ul2017_eopPNEB_eflowEB_normalized_all/
+Plotting mee_in_EB
+		Loading histogram mee_in_EB from file /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2017_all.root
+			Success!
+/////////////////////////////////////////////Floating Z width////////////////////////////////////////////////////////
+/////////////////////////////////////////////Approximated width////////////////////////////////////////////////////////
+fV 5
+fG is 3.47728
+fabrice approx : 1.64741 %
+/////////////////////////////////////////////Fixed Z width////////////////////////////////////////////////////////
+ FCN=0.00583856 FROM MINOS     STATUS=SUCCESSFUL    123 CALLS         519 TOTAL
+                     EDM=2.58205e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  BW mean      9.04946e+01   5.76183e-01   6.37963e-04   8.91459e-05
+   2  Gauss Width   1.54780e+00   7.31497e-01  -1.39471e-03  -1.31453e-05
+   3  Integral     4.51852e+01   8.81244e+00   8.81244e+00  -5.51546e-07
+                               ERR DEF= 0.5
+Preliminary 2017 mee_in_EB mean is 90.4946
+Preliminary 2017 mee_in_EB sigma60 is 1.5478
+
+		Loading histogram mee_in_EB from file /afs/cern.ch/work/w/wangjin/scratch2/ecal/2019/monitor/CMSSW_9_4_9/src/ecalDPG_Plots/data/ul2017_eopPNEB_eflowEB_normalized_all.root
+			Success!
+/////////////////////////////////////////////Floating Z width////////////////////////////////////////////////////////
+/////////////////////////////////////////////Approximated width////////////////////////////////////////////////////////
+fV 5
+fG is 3.47728
+fabrice approx : 1.65408 %
+/////////////////////////////////////////////Fixed Z width////////////////////////////////////////////////////////
+ FCN=0.00258005 FROM MINOS     STATUS=SUCCESSFUL    144 CALLS         789 TOTAL
+                     EDM=6.54649e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  BW mean      9.01371e+01   7.27692e-01   2.94923e-03   4.87241e-04
+   2  Gauss Width   1.55081e+00   8.09817e-01  -4.96053e-03  -2.51022e-04
+   3  Integral     4.45258e+01   1.04714e+01   1.04714e+01  -3.59320e-06
+                               ERR DEF= 0.5
+Ultra Legacy 2017 mee_in_EB mean is 90.1371
+Ultra Legacy 2017 mee_in_EB sigma60 is 1.55081
+

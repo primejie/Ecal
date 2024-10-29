@@ -1,0 +1,2 @@
+/eos/cms/store/group/dpg_ecal/alca_ecalcalib/ecalelf/ntuples/wangchu/2023IC/13.6TeV/133X_dataRun3_offline/EGamma1_Run2023D-EcalUncalZElectron-PromptReco-v2/jsonFilter/eleIDTree.root
+/eos/cms/store/group/dpg_ecal/alca_ecalcalib/ecalelf/ntuples/wangchu/2023IC/13.6TeV/133X_dataRun3_offline/EGamma1_Run2023D-EcalUncalZElectron-PromptReco-v2/jsonFilter/ntuple.root

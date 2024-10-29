@@ -1,0 +1,50 @@
+
+Processing ntupleDumper.cxx("/afs/cern.ch/user/c/chuw/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/", "Run3_eop_2d_median_IOVN",1, "inputs/Run3_timebins_all.root","inputs/Run3.dat")...
+In file included from input_line_8:1:
+In file included from /afs/cern.ch/work/c/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/ntupleDumper.cxx:2:
+In file included from /afs/cern.ch/work/c/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/ECALELF_ntuple_processor.cc:39:
+/afs/cern.ch/work/c/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/extra_tools.cc:1352:67: warning: unknown escape sequence '\.' [-Wunknown-escape-sequence]
+        std::vector<std::string> _fileList = listFilesInDir(_dirPath, ".*\.root", 1);
+                                                                         ^~
+chuw/afs/cern.ch/user/c/chuw/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/inputs/Run3_eop_2d_median_IOVN.txt/afs/cern.ch/user/c/chuw/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/outputs/Run3_eop_2d_median_IOVN//afs/cern.ch/user/c/chuw/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/outputs/Run3_eop_2d_median_IOVN/Run3_eop_2d_median_IOVN_all.root
+[52]	 Ntuples list: /afs/cern.ch/user/c/chuw/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/inputs/Run3_eop_2d_median_IOVN.txt
+	 Output file: /afs/cern.ch/user/c/chuw/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/outputs/Run3_eop_2d_median_IOVN/Run3_eop_2d_median_IOVN_all.root
+	 Events PerBin: 10000
+	 Time bins file: inputs/Run3_timebins_all.root
+	 Lumi file: inputs/Run3.dat
+
+
+[59]Ntuples to analyse :
+[68]recal Tree to analyse :
+[230] Checking time limits...
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007ffa45a8a60c in waitpid () from /lib64/libc.so.6
+#1  0x00007ffa45a07f62 in do_system () from /lib64/libc.so.6
+#2  0x00007ffa46594702 in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc630/lcg/root/6.10.08-fmblme2/lib/libCore.so
+#3  0x00007ffa46596bac in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc630/lcg/root/6.10.08-fmblme2/lib/libCore.so
+#4  <signal handler called>
+#5  0x00007ffa398f4885 in ?? ()
+#6  0x0000000000000000 in ?? ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum http://root.cern.ch/forum.
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007ffa398f4885 in ?? ()
+#6  0x0000000000000000 in ?? ()
+===========================================================
+
+

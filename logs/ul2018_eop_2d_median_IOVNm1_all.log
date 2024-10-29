@@ -1,0 +1,24 @@
+
+Processing ntupleDumper.cxx("/afs/cern.ch/user/c/chuw/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/", "ul2018_eop_2d_median_IOVNm1",1,"inputs/Run2_UL_timebins_all.root","inputs/lumi_3years_csv.dat")...
+In file included from input_line_8:1:
+In file included from /afs/cern.ch/work/c/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/ntupleDumper.cxx:2:
+In file included from /afs/cern.ch/work/c/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/ECALELF_ntuple_processor.cc:39:
+/afs/cern.ch/work/c/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/extra_tools.cc:1352:67: warning: unknown escape sequence '\.' [-Wunknown-escape-sequence]
+        std::vector<std::string> _fileList = listFilesInDir(_dirPath, ".*\.root", 1);
+                                                                         ^~
+In file included from input_line_8:1:
+In file included from /afs/cern.ch/work/c/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/ntupleDumper.cxx:2:
+/afs/cern.ch/work/c/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/ECALELF_ntuple_processor.cc:239:17: error: cannot initialize a parameter of type 'TChain *' with an lvalue of type 'TTree *'
+                setNtupleTree(tree);
+                              ^~~~
+/afs/cern.ch/work/c/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/ECALELF_ntuple_processor.h:115:29: note: passing argument to parameter '_tree' here
+        void setNtupleTree(TChain* _tree);
+                                   ^
+In file included from input_line_8:1:
+In file included from /afs/cern.ch/work/c/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/ntupleDumper.cxx:2:
+/afs/cern.ch/work/c/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/ECALELF_ntuple_processor.cc:403:16: error: cannot initialize a parameter of type 'TChain *' with an lvalue of type 'TTree *'
+        setNtupleTree(_tree);
+                      ^~~~~
+/afs/cern.ch/work/c/chuw/ECAL/quickMonitor/CMSSW_9_4_9/src/quickECALMonitor/ECALELF_ntuple_processor.h:115:29: note: passing argument to parameter '_tree' here
+        void setNtupleTree(TChain* _tree);
+                                   ^
